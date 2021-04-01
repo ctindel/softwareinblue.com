@@ -1,0 +1,22 @@
+version: '2'
+services:
+  sib:
+    build:
+      context: .
+    image: sib
+    container_name: sib
+    volumes:
+      - .:/mnt/sib
+    ports:
+      - "8080:1313"
+    command: /tmp/sib/run_local.sh
+  sib_shell:
+    build:
+      context: .
+    image: sib
+    container_name: sib_shell
+    volumes:
+      - .:/mnt/sib
+    ports:
+      - "8080:1313"
+    command: /tmp/sib/run_shell.sh
