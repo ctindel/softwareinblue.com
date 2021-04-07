@@ -1,10 +1,10 @@
 +++
-Description = "Episode 1"
+Description = "Joined by guest financial news personality Gary Deduke we discuss the recent Zoom 10K filing.  Then Steve and Chad go through some recent tech news topics.  Will technologies like Clubhouse and Microsoft Mesh become relevant for people engaged in software sales?  Google caps commissions of sales reps, will it affect their ability to compete?"
 aliases = ["/1"]
 author = "Chad"
 date = "2021-04-01T04:08:15-05:00"
 episode = "1"
-episode_image = "img/logos/logo-medium.png"
+episode_image = "img/logos/logo-170x170.png"
 explicit = "no"
 guests = ["garydeduke"]
 images = ["img/episode/default-social.jpg"]
@@ -19,4 +19,5 @@ categories = ["Cloud Technology"]
 series = ["Exploring the Cloud"]
 tags = ["Cloud", "Technology", "Sales"]
 +++
+
 Joined by guest financial news personality Gary Deduke we discuss the recent Zoom 10K filing.  Then Steve and Chad go through some recent tech news topics.  Will technologies like Clubhouse and Microsoft Mesh become relevant for people engaged in software sales?  Google caps commissions of sales reps, will it affect their ability to compete?
