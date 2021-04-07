@@ -9,6 +9,10 @@ services:
       - .:/mnt/sib
     ports:
       - "8080:1313"
+    environment:
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}
     command: /tmp/sib/run_local.sh
   sib_shell:
     build:
@@ -19,4 +23,8 @@ services:
       - .:/mnt/sib
     ports:
       - "8080:1313"
+    environment:
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}
     command: /tmp/sib/run_shell.sh
