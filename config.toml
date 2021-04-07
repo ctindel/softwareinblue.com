@@ -44,9 +44,9 @@ buildFuture = true
 
 [params]
 mainSections = ["episode"]
-episode_number_style  = "brackets"
-episode_number_prefix = "CWC"
-site_theme = "blue"
+#episode_number_style  = "brackets"
+#episode_number_prefix = "CWC"
+site_theme = "orange"
 # site_layout = "grid"
 site_layout = "row"
 show_next_upcoming = "true"
@@ -55,7 +55,7 @@ enable_jumbo = "true"
 # truncate = "100"
 # about_logo = "/img/hugocast.png"
 copyright_notice = "Copyright 2021 [Can I get that software in blue?](https://softwareinblue.com)"
-itunes_subscribe = "https://podcasts.apple.com/us/podcast/arrested-devops/id773888088?ign-mpt=uo%3D4&mt=2"
+itunes_subscribe = "https://podcasts.apple.com/us/podcast/can-i-get-that-software-in-blue/id1561899125?ign-mpt=uo%3D4&mt=2"
 android_subscribe = "https://subscribeonandroid.com/softwareinblue.com/anchor_podtrac_rss.xml"
 spotify_subscribe = "https://open.spotify.com/show/25r9ckggqIv6rGU8ca0WP2"
 google_play_subscribe = "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuYXJyZXN0ZWRkZXZvcHMuY29tL2VwaXNvZGUvaW5kZXgueG1s"
@@ -69,12 +69,12 @@ media_prefix = ""
 disqusShortname = ""
   [params.feed]
     copyright = "Copyright 2021 Can I get that software in blue" #do not use markdown in this field; it is used in the feed
-    itunes_subtitle = "The best podcast ever" #no markdown or HTML
+    itunes_subtitle = "Podcast by presales for presales" #no markdown or HTML
     itunes_author = "softwareinblue" #no markdown or HTML
     itunes_summary = "Can I get that software in blue?, a podcast by and for people engaged in technology sales. If you are in the technology presales, sales, support or professional services career paths then this show is for you!  Your hosts Steve Mayzak and Chad Tindel will take you on a hot-air balloon ride exploring the whimsy and caprice of enterprise software marchitecture sales."# Limited to 4000 characters or less, plain text, no HTML
     itunes_owner_name = "Chad Tindel"
     itunes_owner_email = "chad@softwareinblue.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on Apple Podcasts. It will not be publicly displayed on Apple Podcasts.
-    itunes_image = "https://www.arresteddevops.com/img/ado-podcast-logo.png" #fqdn to the image art for your podcast
+    itunes_image = "https://is3-ssl.mzstatic.com/image/thumb/Podcasts114/v4/87/b4/01/87b401ab-8a5a-2819-2d1c-a8a1a017b3b6/mza_12162978830911181992.jpg/313x0w.jpg" #fqdn to the image art for your podcast
     itunes_top_category = "Technology"
     itunes_first_sub_category = "Software How-To"
     itunes_second_sub_category = "Tech News"

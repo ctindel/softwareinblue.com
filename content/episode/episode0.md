@@ -13,7 +13,7 @@ podcast_duration = "00:11:13"
 podcast_file = ""
 podcast_bytes = ""
 title = "Episode 0"
-youtube = ""
+youtube = "9pWv0j7w3_M"
 
 categories = ["Cloud Technology"]
 series = ["Exploring the Cloud"]
