@@ -7,6 +7,8 @@ googleAnalytics = "G-WLVZ4G6NNM"
 themesDir = "./themes"
 paginate = "9"
 buildFuture = true
+# We need this so our Cloudfront can serve properly from S3
+uglyurls = true
 
 [taxonomies]
   category = "categories"
