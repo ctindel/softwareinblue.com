@@ -12,6 +12,5 @@ Thumbnail = "img/guest/nickdrost.jpg"
 Pinterest = ""
 Instagram = ""
 YouTube = ""
-guest_group = "guests"
 +++
 Nick Drost is a Senior Director of Pre-Sales and Solution Architecture at Elastic.  He previously worked at large technology companies such as Oracle and Salesforce.
