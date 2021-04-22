@@ -2,7 +2,7 @@
 Title = "Kyle Schroeder"
 date = "2021-04-21T09:12:39-05:00"
 Twitter = "kyleschroeder"
-Website = "https://www.linkedin.com/in/gary-deduke-17514829/"
+Website = ""
 Type = "guest"
 Facebook = ""
 Linkedin = "schroederkyle"

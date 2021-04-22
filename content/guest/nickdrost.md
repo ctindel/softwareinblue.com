@@ -2,7 +2,7 @@
 Title = "Nick Drost"
 date = "2021-04-21T09:12:39-05:00"
 Twitter = "nickdrost"
-Website = "https://www.linkedin.com/in/nickdrost/"
+Website = ""
 Type = "guest"
 Facebook = ""
 Linkedin = "nickdrost"
