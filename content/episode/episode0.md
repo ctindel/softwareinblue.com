@@ -20,9 +20,9 @@ series = ["Exploring the Cloud"]
 tags = ["Cloud", "Technology", "Sales"]
 +++
 
-Episode #0 of Can I get that software in blue?, a podcast by and for people 
-engaged in technology sales.  If you are in the technology presales, sales, 
-support or professional services career paths then this show is for you!  Your 
-hosts Steve Mayzak and Chad Tindel introduce the idea behind the show, and 
-they introduce themselves and give their background for how they got into 
+Episode 0 of Can I get that software in blue?, a podcast by and for people 
+engaged in technology sales.  If you are in the technology presales, sales,
+support or professional services career paths then this show is for you!  Your
+hosts Steve Mayzak and Chad Tindel introduce the idea behind the show, and
+they introduce themselves and give their background for how they got into
 technology pre-sales.
