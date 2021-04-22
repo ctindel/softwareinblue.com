@@ -58,7 +58,7 @@ copyright_notice = "Copyright 2021 [Can I get that software in blue?](https://so
 itunes_subscribe = "https://podcasts.apple.com/us/podcast/can-i-get-that-software-in-blue/id1561899125?ign-mpt=uo%3D4&mt=2"
 android_subscribe = "https://subscribeonandroid.com/softwareinblue.com/anchor_podtrac_rss.xml"
 spotify_subscribe = "https://open.spotify.com/show/25r9ckggqIv6rGU8ca0WP2"
-google_play_subscribe = "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuYXJyZXN0ZWRkZXZvcHMuY29tL2VwaXNvZGUvaW5kZXgueG1s"
+google_play_subscribe = "https://podcasts.google.com/feed/aHR0cHM6Ly9zb2Z0d2FyZWluYmx1ZS5jb20vYW5jaG9yX3BvZHRyYWNfcnNzLnhtbA"
 stitcher_subscribe = "https://www.stitcher.com/podcast/can-i-get-that-software-in-blue"
 #soundcloud_subscribe = ""
 #pocketcasts_subscribe = ""
