@@ -9,10 +9,10 @@ explicit = "no"
 guests = ["douglashanna"]
 images = ["img/episode/default-social.jpg"]
 news_keywords = []
-podcast_duration = "01:18:45"
+podcast_duration = "00:50:02"
 podcast_file = ""
 podcast_bytes = ""
-title = "Episode 4 | Kunal Anand Talks Crypto | Coinbase S1 Breakdown"
+title = "Episode 5 | Douglas Hanna, COO Grafana Labs | Salesforce.com 10K Breakdown"
 youtube = "8JoG_oagCd4"
 
 categories = ["Cloud Technology"]
