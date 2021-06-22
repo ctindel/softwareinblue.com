@@ -3,7 +3,7 @@ Description = "Your hosts Steve Mayzak and Chad Tindel are joined by Kunal Anand
 aliases = ["/4"]
 author = "Chad"
 date = "2021-06-09T12:00:00-05:00"
-episode = "3"
+episode = "4"
 episode_image = "img/logos/logo-170x170.png"
 explicit = "no"
 guests = ["kunalanand"]
@@ -12,7 +12,7 @@ news_keywords = []
 podcast_duration = "01:18:45"
 podcast_file = ""
 podcast_bytes = ""
-title = "Episode 4"
+title = "Episode 4 | Kunal Anand Talks Crypto | Coinbase S1 Breakdown"
 youtube = "DOIjp_hgaj8"
 
 categories = ["Cloud Technology"]

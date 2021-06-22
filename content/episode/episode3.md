@@ -12,7 +12,7 @@ news_keywords = []
 podcast_duration = "01:07:59"
 podcast_file = ""
 podcast_bytes = ""
-title = "Episode 3"
+title = "Episode 3 | Brad Murdoch | Snowflake 10K Breakdown | Is Gartner still relevant?"
 youtube = "iOWNkNYWpn0"
 
 categories = ["Cloud Technology"]

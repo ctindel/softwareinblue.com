@@ -12,7 +12,7 @@ news_keywords = []
 podcast_duration = "00:54:46"
 podcast_file = ""
 podcast_bytes = ""
-title = "Episode 2"
+title = "Episode 2 | Kyle Schroder and Nick Drost | DraftKings 10K Breakdown and Tech News"
 youtube = "P8qui_x8wvM"
 
 categories = ["Cloud Technology"]
