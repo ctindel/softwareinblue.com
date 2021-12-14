@@ -1,9 +1,9 @@
 +++
-Description = "Your hosts Steve Mayzak and Chad Tindel are joined by Timo Jokiaho, Chief Technologist - Global Telco at Red Hat where he focuses on network functions virtualisation (NFV) and containers going towards 5G. This is a pure tech episode focusing on 5G telco innovations and how the telco stack is changing to be more software and cloud based running on Kubernetes."
+Description = "Your hosts Steve Mayzak and Chad Tindel are joined by Timo Jokiaho, Chief Technologist - Global Telco at Red Hat where he focuses on network functions virtualization (NFV) and containers going towards 5G. This is a pure tech episode focusing on 5G telco innovations and how the telco stack is changing to be more software and cloud based running on Kubernetes."
 aliases = ["/8"]
 author = "Chad"
 date = "2021-09-22T12:00:00-05:00"
-episode = "7"
+episode = "8"
 episode_image = "img/logos/logo-170x170.png"
 explicit = "no"
 guests = ["timojokiaho"]
@@ -20,7 +20,7 @@ tags = ["Cloud", "Technology", "Sales", "5G"]
 +++
 Episode #8 of "Can I get that software in blue?", a podcast by and for people engaged in technology sales. If you are in the technology presales, solution architecture, sales, support or professional services career paths then this show is for you!  
 
-Your hosts Steve Mayzak and Chad Tindel are joined by Timo Jokiaho, Chief Technologist - Global Telco at Red Hat where he focuses on network functions virtualisation (NFV) and containers going towards 5G. This is a pure tech episode focusing on 5G telco innovations and how the telco stack is changing to be more software and cloud based running on Kubernetes.
+Your hosts Steve Mayzak and Chad Tindel are joined by Timo Jokiaho, Chief Technologist - Global Telco at Red Hat where he focuses on network functions virtualization (NFV) and containers going towards 5G. This is a pure tech episode focusing on 5G telco innovations and how the telco stack is changing to be more software and cloud based running on Kubernetes.
 
 Contact us on Twitter or LinkedIn to suggest companies or tech news articles worthy of the podcast!
 
