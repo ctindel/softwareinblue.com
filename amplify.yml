@@ -1,0 +1,16 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+        - git submodule update --init --recursive --depth 1
+        - hugo
+        - yum install -y libxslt
+        - curl -o /tmp/anchor_rss.xml 'https://anchor.fm/s/554c0a2c/podcast/rss'
+        - xsltproc anchor-podtrac-rss-transform.xsl /tmp/anchor_rss.xml > public/anchor_podtrac_rss.xml
+  artifacts:
+    baseDirectory: public
+    files:
+      - '**/*'
+  cache:
+    paths: []
