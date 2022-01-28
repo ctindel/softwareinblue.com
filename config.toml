@@ -7,6 +7,7 @@ googleAnalytics = "G-WLVZ4G6NNM"
 themesDir = "./themes"
 paginate = "9"
 buildFuture = true
+publishDir = "public"
 
 [taxonomies]
   category = "categories"

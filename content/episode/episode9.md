@@ -1,5 +1,5 @@
 +++
-Description = "Your hosts Steve Mayzak and Chad Tindel are joined by Brian Stevens, CEO of Boston-based Deep Learning Startup Neural Magic. Brian was previously CTO and VP of Google Cloud and also the CEO and EVP of Red Hat. We start off the episode by learning about how Neural Magic is democratizing access to sparse deep learning models and then dive into topics of AI/ML and how it affects the world around us."
+Description = "Your hosts Steve Mayzak and Chad Tindel are joined by Brian Stevens, CEO of Boston-based Deep Learning Startup Neural Magic. Brian was previously CTO and VP of Google Cloud and also the CTO and EVP of Red Hat. We start off the episode by learning about how Neural Magic is democratizing access to sparse deep learning models and then dive into topics of AI/ML and how it affects the world around us."
 aliases = ["/9"]
 author = "Chad"
 date = "2021-12-14T12:00:00-05:00"
