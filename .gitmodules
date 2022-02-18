@@ -1,3 +1,4 @@
 [submodule "themes/castanet"]
 	path = themes/castanet
-	url = https://github.com/mattstratton/castanet
+	url = https://github.com/ctindel/castanet
+	branch = social_links
