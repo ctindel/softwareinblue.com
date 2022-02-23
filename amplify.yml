@@ -3,8 +3,8 @@ frontend:
   phases:
     build:
       commands:
-        - git reset --hard --recurse-submodule
-        - git submodule update --init --recursive --depth 1
+        #- git submodule update --init --recursive --depth 1
+        - git clone https://github.com/mattstratton/castanet themes/castanet
         - hugo
         - yum install -y libxslt
         - curl -o /tmp/anchor_rss.xml 'https://anchor.fm/s/554c0a2c/podcast/rss'
