@@ -27,6 +27,11 @@ width="600" height="200" class="img-fluid jumbotron-host">
         {{ end }}
     </div>
     <div class = "row">
+    {{ if (isset .Site.Params "youtube_subscribe") }}
+      <div class = "d-flex p-2 subscribe_buttons col-md-auto">
+        <a class="btn btn-default" href="{{ .Site.Params.youtube_subscribe}}"><i class="fab fa-spotify"></i>&nbsp;Youtube</a>
+      </div>
+    {{ end }}
     {{ if (isset .Site.Params "spotify_subscribe") }}
       <div class = "d-flex p-2 subscribe_buttons col-md-auto">
         <a class="btn btn-default" href="{{ .Site.Params.spotify_subscribe}}"><i class="fab fa-spotify"></i>&nbsp;Spotify</a>
