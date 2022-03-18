@@ -2,7 +2,7 @@
 Description = "Your hosts Steve Mayzak and Chad Tindel are joined by Dr. Grin Lord, CEO of mpathic.ai and a board certified, licensed clinical psychologist.  Today we're talking about empathic communication and Dr. Lord's startup which is billed as the grammarly of empathy, a kind of Empathy-as-a-Service."
 aliases = ["/12"]
 author = "Chad"
-date = "2022-02-2412:00:00-05:00"
+date = "2022-03-17T12:00:00-05:00"
 episode = "12"
 episode_image = "img/logos/logo-170x170.png"
 explicit = "no"
