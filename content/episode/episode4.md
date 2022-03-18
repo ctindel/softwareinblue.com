@@ -12,7 +12,7 @@ news_keywords = []
 podcast_duration = "01:18:45"
 podcast_file = ""
 podcast_bytes = ""
-title = "Episode 4 | Kunal Anand Talks Crypto | Coinbase S1 Breakdown"
+title = "Episode 4 | Kunal Anand (CTO @ Imperva) Talks Crypto | Coinbase S1 Breakdown"
 youtube = "DOIjp_hgaj8"
 
 categories = ["Cloud Technology"]
