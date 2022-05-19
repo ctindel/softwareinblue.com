@@ -12,7 +12,7 @@ news_keywords = []
 podcast_duration = "53:08"
 podcast_file = ""
 podcast_bytes = ""
-title = "Episode 14 | Monica Sarbu, Founder/CEO @ xata.io NoSQL Database | Female Founders and VCs"
+title = "Episode 14 | Monica Sarbu, Founder/CEO @ xata.io Serverless Database | Female Founders and VCs"
 youtube = "FZCYWBDWoS0"
 categories = ["Cloud Technology"]
 series = ["Exploring the Cloud"]
@@ -20,7 +20,7 @@ tags = ["Cloud", "Technology", "Sales", "web3", "crypto", "defi", "NFT"]
 +++
 Episode #14 of "Can I get that software in blue?", a podcast by and for people engaged in technology sales. If you are in the technology presales, solution architecture, sales, support or professional services career paths then this show is for you!
 
-Your hosts Steve Mayzak and Chad Tindel are joined by our former Elastic colleague Monica Sarbu, Founder and CEO of xata.io, a modern serverless NoSQL database meant to make life very easy for developers.
+Your hosts Steve Mayzak and Chad Tindel are joined by our former Elastic colleague Monica Sarbu, Founder and CEO of xata.io, a modern serverless database meant to make life very easy for developers.
 
 Monica tells us about the vision for her new database company which recently raised a $30M Series A funding round. We also talk with her about her leadership style, how to hire and promote more women in tech, and we also learn about her own VC investing and the companies she's helping to build through that path as well. She recently invested in https://tactic.fyi and https://www.wander.com and plans to help them be successful as well.
 
