@@ -1,5 +1,5 @@
 +++
-Description = "Your hosts Steve Mayzak and Chad Tindel are joined by bestie guestie host Forrest Colyer (an AWS Blockchain Specialist) and Matthew Callahan, Creative Director at VaynerNFT to dive deep into the world and future of NFTs. Tune in for some fun stories about recent VaynerNFT projects and also about Matt's side hustles Bad Christmas Movie Bingo boardgame and Bad Christmas Ornaments NFTs that he minted."
+Description = "Your hosts Steve Mayzak and Chad Tindel are joined by our former Elastic colleague Monica Sarbu, Founder and CEO of xata.io, a modern serverless database meant to make life very easy for developers."
 aliases = ["/14"]
 author = "Chad"
 date = "2022-05-18T12:00:00-05:00"

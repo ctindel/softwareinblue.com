@@ -1,5 +1,5 @@
 +++
-Description = "Your hosts Steve Mayzak and Chad Tindel are joined Tota Mukherjee, a Senior Customer Success Manager at Twilio and former owner and CEO of Soldsie.  Tota joins us for a 10K Breakdown of the large home builder Toll Brothers and then we have a great discussion about the Customer Success role and the value it brings to enterprise sales teams."
+Description = "Your hosts Steve Mayzak and Chad Tindel are joined Tota Mukherjee, a Senior Customer Success Manager at Twilio and former owner and CEO of Soldsie. Tota joins us for a 10K Breakdown of the large home builder Toll Brothers and then we have a great discussion about the Customer Success role and the value it brings to enterprise sales teams."
 aliases = ["/15"]
 author = "Chad"
 date = "2022-06-09T12:00:00-05:00"
