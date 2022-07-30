@@ -3,7 +3,7 @@ Description = "Your hosts Steve Mayzak and Chad Tindel are joined Tota Mukherjee
 aliases = ["/15"]
 author = "Chad"
 date = "2022-06-09T12:00:00-05:00"
-episode = "14"
+episode = "15"
 episode_image = "img/logos/logo-170x170.png"
 explicit = "no"
 guests = ["totamukherjee"]
@@ -20,7 +20,7 @@ tags = ["Cloud", "Technology", "Sales", "web3", "crypto", "defi", "NFT"]
 +++
 Episode #15 of "Can I get that software in blue?", a podcast by and for people engaged in technology sales. If you are in the technology presales, solution architecture, sales, support or professional services career paths then this show is for you!
 
-Your hosts Steve Mayzak and Chad Tindel are joined Tota Mukherjee, a Senior Customer Success Manager at Twilio and former owner and CEO of Soldsy.  Tota joins us for a 10K Breakdown of the large home builder Toll Brothers and then we have a great discussion about the Customer Success role and the value it brings to enterprise sales teams.
+Your hosts Steve Mayzak and Chad Tindel are joined by Tota Mukherjee, a Senior Customer Success Manager at Twilio and former owner and CEO of Soldsy.  Tota joins us for a 10K Breakdown of the large home builder Toll Brothers and then we have a great discussion about the Customer Success role and the value it brings to enterprise sales teams.
 
 Contact us on Twitter or LinkedIn to suggest companies or tech news articles worthy of the podcast!
 
