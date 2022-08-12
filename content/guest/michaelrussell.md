@@ -13,7 +13,7 @@ Pinterest = ""
 Instagram = ""
 YouTube = ""
 +++
-Michael Russel is Vice President, Head of Architecture and Innovation at Mutual
+Michael Russell is Vice President, Head of Architecture and Innovation at Mutual
 of America Financial Group. He's held similar roles at ViacomCBS, Standard and
 Poors, and Starwood Hotels while doing a stint on the sales side at Red Hat as
 well.
