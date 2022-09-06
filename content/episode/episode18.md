@@ -1,5 +1,5 @@
 +++
-Description = "Your hosts Steve Mayzak and Chad Tindel are joined by Gaurav Gupta, General Partner at Lightspeed Venture Partners where's led investments into notable tech companies such as Grafana Labs, Clickhouse, Hasura and others. Before joining Lightspeed, Gaurav was VP of Product at Elastic and Splunk. Gaurav goes pretty deep into what it's like to move into the Venture Capital space, and his process for how he decides to invest in a founder/company and how that varies at the different company stages (Seed, Series A, Series B). Also he gives us some real talk on the current state of the VC world during the current pull back."
+Description = "Your hosts Steve Mayzak and Chad Tindel are joined by Gaurav Gupta, General Partner at Lightspeed Venture Partners where he's led investments into notable tech companies such as Grafana Labs, Clickhouse, Hasura and others. Before joining Lightspeed, Gaurav was VP of Product at Elastic and Splunk. Gaurav goes pretty deep into what it's like to move into the Venture Capital space, and his process for how he decides to invest in a founder/company and how that varies at the different company stages (Seed, Series A, Series B). Also he gives us some real talk on the current state of the VC world during the current pull back."
 aliases = ["/18"]
 author = "Chad"
 date = "2022-09-06T12:00:00-05:00"
@@ -20,7 +20,7 @@ tags = ["Cloud", "Technology", "Sales", "AI", "Ethics"]
 +++
 Episode #18 of "Can I get that software in blue?", a podcast by and for people engaged in technology sales. If you are in the technology presales, solution architecture, sales, support or professional services career paths then this show is for you!
 
-Your hosts Steve Mayzak and Chad Tindel are joined by Gaurav Gupta, General Partner at Lightspeed Venture Partners where's led investments into notable tech companies such as Grafana Labs, Clickhouse, Hasura and others. Before joining Lightspeed, Gaurav was VP of Product at Elastic and Splunk. 
+Your hosts Steve Mayzak and Chad Tindel are joined by Gaurav Gupta, General Partner at Lightspeed Venture Partners where he's led investments into notable tech companies such as Grafana Labs, Clickhouse, Hasura and others. Before joining Lightspeed, Gaurav was VP of Product at Elastic and Splunk. 
 
 Gaurav goes pretty deep into what it's like to move into the Venture Capital space, and his process for how he decides to invest in a founder/company and how that varies at the different company stages (Seed, Series A, Series B). Also he gives us some real talk on the current state of the VC world during the current pull back.
 
