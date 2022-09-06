@@ -1,7 +1,7 @@
 +++
 Title = "Gaurav Gupta"
 date = "2022-09-06T09:12:39-05:00"
-Twitter = ""
+Twitter = "gauravgram"
 Website = ""
 Type = "guest"
 Facebook = ""
