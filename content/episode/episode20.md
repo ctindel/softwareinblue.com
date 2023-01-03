@@ -1,5 +1,5 @@
 +++
-Description = "Your hosts Steve Mayzak and Chad Tindel are joined by Dr. Emile Servan-Schreiber, a cognitive scientist and entrepreneur specializing in business and political applications of prediction markets and other collective intelligence technologies. He is the Managing Director of Hypermind, where he has pioneered many business applications of prediction markets for dozens of leading companies and governments on all continents."
+Description = "Your hosts Steve Mayzak and Chad Tindel are first joined by Rory Trifon, President of the Richard Bernstein Estate. Richard Bernstein is most widely remembered today as the creator of Andy Warhol's Interview Magazine distinctive covers and he was also a Pop Art pioneer, one of the first to blur the lines between commercial and fine art. After that there is a short segment to showcase Bobby Zeik, an innovative artist doing really interesting work with spray paint, and he talks about his inspirations as well as his process for getting the work onto canvas."
 aliases = ["/20"]
 author = "Chad"
 date = "2022-12-05T12:00:00-05:00"
