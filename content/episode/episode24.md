@@ -1,5 +1,5 @@
 +++
-Description = "Should engineering report to Product Management or should Product Management function solely through influence over other organzations?  Listen to Alex Francoeur, Head of Product at Xata and formerly Director of Product Management at Elastic covering the Kibana Platform, talk about how to be a successful Product Manager and how your role changes as you move up to managing other Product Managers."
+Description = "William Dinkel talks with us about his experience launching and shutting down one startup, then hitting it big with Nova.ai, which was one of the early successful AI sales tools years ago before all the ChatGPT-inspired hype hit recently, and getting acquired by Highspot. He tells us the real details on what it's like to startup a company, go through multiple incubators, get acquired, and integrate the product into a much larger suite of sales tools at Highspot"
 aliases = ["/24"]
 author = "Chad"
 date = "2023-04-17T12:00:00-05:00"
