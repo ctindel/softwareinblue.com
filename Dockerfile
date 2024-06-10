@@ -14,7 +14,7 @@ RUN apt-get -y update && \
 RUN echo "Targetplatform is ${TARGETPLATFORM}"
 
 RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then ARCHITECTURE=linux-amd64; elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then ARCHITECTURE=linux-arm64; else exit 1; fi && \
- curl https://storage.googleapis.com/golang/go1.19.5.${ARCHITECTURE}.tar.gz -o /tmp/sib/go.${ARCHITECTURE}.tar.gz && \
+ curl https://storage.googleapis.com/golang/go1.22.4.${ARCHITECTURE}.tar.gz -o /tmp/sib/go.${ARCHITECTURE}.tar.gz && \
     tar zxpvf /tmp/sib/go.${ARCHITECTURE}.tar.gz -C /usr/local
 
 RUN cd /tmp/sib && \
