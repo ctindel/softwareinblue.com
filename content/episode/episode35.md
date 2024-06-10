@@ -16,7 +16,7 @@ title = "Episode 35 | Dr. Santona Tuli, Head of Data @ Upsolver | Unified Theory
 youtube = "V6l2cxZu6eQ"
 categories = ["Cloud Technology"]
 series = ["Exploring the Cloud"]
-tags = ["Cloud", "Technology", "Sales", "Marketing", "AI", "LLM"]
+tags = ["Cloud", "Technology", "Sales", "Marketing", "AI", "Data"]
 +++
 Episode #35 of "Can I get that software in blue?", a podcast by and for people engaged in technology sales. If you are in the technology presales, solution architecture, sales, support or professional services career paths then this show is for you!
 
