@@ -2,7 +2,7 @@
 Description = "Today Chad is talking with Bob van Luijt, Founder and CEO at Weaviate, the premiere Open Source Vector Database company. Their conversation is wide ranging from Bob's background studying music composition at Berklee College of Music leading him to eventually decide that he should become a tech founder, to the early days and foundations of Weaviate and how he thinks the AI space will evolve to combat today's early problems of LLM hallucinations."
 aliases = ["/37"]
 author = "Chad"
-date = "2024-09-19T00:00:00-00:00"
+date = "2024-09-18T00:00:00-00:00"
 episode = "37"
 episode_image = "img/logos/logo-170x170.png"
 explicit = "no"
