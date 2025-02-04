@@ -1,5 +1,5 @@
 +++
-Description = "Today Chad and Steve are talking with John Engates, Field CTO at Cloudflare and formerly the CTO and Rackspace. Their conversation includes a discussion of his time at Rackspace and what Rackspace might have done differently during the early rise of AWS, how Cloudflare's network now protects against threats in both directions not just against websites but also against desktop users, and how Rackspace is bringing AI inference to the edge by putting GPUs in their Points-of-Presence around the world."
+Description = "Today Chad and Steve are talking with John Engates, Field CTO at Cloudflare and formerly the CTO at Rackspace. Their conversation includes a discussion of his time at Rackspace and what Rackspace might have done differently during the early rise of AWS, how Cloudflare's network now protects against threats in both directions not just against websites but also against desktop users, and how Cloudflare is bringing AI inference to the edge by putting GPUs in their points-of-presence around the world."
 aliases = ["/38"]
 author = "Chad"
 date = "2025-01-31T00:00:00-00:00"
@@ -20,7 +20,7 @@ tags = ["Cloud", "Technology", "AI", "Networking"]
 +++
 Episode #38 of "Can I get that software in blue?", a podcast by and for people engaged in technology sales. If you are in the technology presales, solution architecture, sales, support or professional services career paths then this show is for you!
 
-Today Chad and Steve are talking with John Engates, Field CTO at Cloudflare and formerly the CTO and Rackspace. Their conversation includes a discussion of his time at Rackspace and what Rackspace might have done differently during the early rise of AWS, how Cloudflare's network now protects against threats in both directions not just against websites but also against desktop users, and how Rackspace is bringing AI inference to the edge by putting GPUs in their Points-of-Presence around the world.
+Today Chad and Steve are talking with John Engates, Field CTO at Cloudflare and formerly the CTO at Rackspace. Their conversation includes a discussion of his time at Rackspace and what Rackspace might have done differently during the early rise of AWS, how Cloudflare's network now protects against threats in both directions not just against websites but also against desktop users, and how Cloudflare is bringing AI inference to the edge by putting GPUs in their points-of-presence around the world.
 
 Our website: https://softwareinblue.com
 
