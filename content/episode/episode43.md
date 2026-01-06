@@ -2,7 +2,7 @@
 Description = "Jon Soini is the founder of ProofSight, and today he's joining Chad Tindel and Steve Mayzak to discuss how his company is using AI to automate a lot of repetitive tasks that would take Field Service Personnel hours for each job. John previously worked on systems for the Field at T-Mobile and also Cruise (the self-driving taxi company acquired by GM) so he has a wealth of experience in this area."
 aliases = ["/43"]
 author = "Chad"
-date = "2026-01-06T00:00:00-00:00"
+date = "2026-01-05T00:00:00-00:00"
 episode = "43"
 episode_image = "img/logos/logo-170x170.png"
 explicit = "no"
