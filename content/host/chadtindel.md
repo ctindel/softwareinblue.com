@@ -13,9 +13,11 @@ Pinterest = ""
 Instagram = ""
 YouTube = ""
 +++
-Chad Tindel is the Field CTO and VP WW Solution architecture at ngrok.  He
+Chad Tindel is Senior Principal GenAI/Search Solution Architect at Elastic.  He
 holds a BS in Computer Science from Cal Poly (San Luis Obispo) as well as an
 MBA and MS Finance from the University of Denver.  After 12 years of writing
 code professionally, Chad discovered that he really loved working with
-customers and has since worked at a slate of very successful companies as a
-Solution Architect: Red Hat, Cloudera, MongoDB, Prevoty, Elastic, AWS and ngrok.
+customers; he now lives in NYC where he has supported all of the major Financial Institutions
+as a Solution Architect at companies such as Red Hat, Cloudera, MongoDB, Prevoty,
+Elastic, AWS, ngrok, and Weaviate. He is also the host of the successful tech sales podcast
+"Can I get that software in blue?" and is a frequent speaker at events and conferences.
