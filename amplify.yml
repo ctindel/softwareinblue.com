@@ -22,7 +22,11 @@ frontend:
         - echo "Running hugo version"
         - /usr/bin/hugo version
         - /usr/bin/hugo
-        - yum install -y libxslt
+        # libxslt provides xsltproc. AL2023 build image runs as non-root
+        # so yum needs sudo. The `|| true` lets the build continue if
+        # xsltproc is already installed.
+        - sudo yum install -y libxslt || true
+        - which xsltproc
         - curl -o /tmp/anchor_rss.xml 'https://anchor.fm/s/554c0a2c/podcast/rss'
         - xsltproc anchor-podtrac-rss-transform.xsl /tmp/anchor_rss.xml > public/anchor_podtrac_rss.xml
   artifacts:
