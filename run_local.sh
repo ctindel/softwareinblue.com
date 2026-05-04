@@ -1,20 +1,9 @@
 #!/bin/bash
 
-#!/bin/bash
-
-# Define your image name and tag
-IMAGE_NAME="sib"
-IMAGE_TAG="arm"
-FULL_IMAGE="$IMAGE_NAME:$IMAGE_TAG"
-
-# Check if the image exists locally
-if ! docker images | grep -E "^$IMAGE_NAME\s+$IMAGE_TAG\s+"; then
-    echo "Image $FULL_IMAGE not found locally. Building using docker buildx..."
-    
-    # Use docker buildx command here
-    docker-buildx build --platform linux/arm64 -t $FULL_IMAGE .
+if docker compose version >/dev/null 2>&1; then
+    DOCKER_COMPOSE="docker compose"
 else
-    echo "Image $FULL_IMAGE is already present."
+    DOCKER_COMPOSE="docker-compose"
 fi
 
-docker-compose -f docker-compose.yml up sib
+$DOCKER_COMPOSE -f docker-compose.yml up sib

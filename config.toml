@@ -15,9 +15,9 @@ publishDir = "public"
   tag = "tags"
 
 [permalinks]
-	# page = "/:filename/"
-	about = "/:filename/"
-	episode = "/:filename/"
+	# page = "/:contentbasename/"
+	about = "/:contentbasename/"
+	episode = "/:contentbasename/"
 
 
 # The theme supports menus with up to one submenu per menu item
@@ -69,6 +69,10 @@ rss_subscribe = "https://softwareinblue.com/anchor_podtrac_rss.xml" #only set th
 description = "Can I get that software in blue? is a hot-air balloon ride exploring the whimsy and caprice of enterprise software marchitecture sales hosted by the world’s foremost aeronauts."
 media_prefix = ""
 disqusShortname = ""
+  [params.author]
+    name = "Chad Tindel"
+    email = "chad@softwareinblue.com"
+
   [params.feed]
     copyright = "Copyright 2021 Can I get that software in blue" #do not use markdown in this field; it is used in the feed
     itunes_subtitle = "Podcast by presales for presales" #no markdown or HTML
