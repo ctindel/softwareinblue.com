@@ -1,11 +1,16 @@
 version: 2
-env:
-  variables:
-    # Amplify's Live Package Updates installs this Hugo version on the
-    # Amazon Linux 2023 build image before the build runs.
-    HUGO_VERSION: 0.161.1
 frontend:
   phases:
+    preBuild:
+      commands:
+        # Manually install hugo_extended 0.161.1. The AL2023 build image
+        # bundles a much older Hugo (0.148.x) and the Live Package
+        # Updates HUGO_VERSION / _LIVE_UPDATES override is unreliable.
+        # AL2023's glibc is new enough to run the extended binary.
+        - wget https://github.com/gohugoio/hugo/releases/download/v0.161.1/hugo_extended_0.161.1_linux-amd64.tar.gz
+        - tar -xf hugo_extended_0.161.1_linux-amd64.tar.gz hugo
+        - mv hugo /usr/bin/hugo
+        - rm -rf hugo_extended_0.161.1_linux-amd64.tar.gz
     build:
       commands:
         #- git submodule update --init --recursive --depth 1
@@ -15,8 +20,8 @@ frontend:
         #   - git clone https://github.com/mattstratton/castanet themes/castanet
         - git clone -b fix/hugo-0.158-deprecations https://github.com/ctindel/castanet themes/castanet
         - echo "Running hugo version"
-        - hugo version
-        - hugo
+        - /usr/bin/hugo version
+        - /usr/bin/hugo
         - yum install -y libxslt
         - curl -o /tmp/anchor_rss.xml 'https://anchor.fm/s/554c0a2c/podcast/rss'
         - xsltproc anchor-podtrac-rss-transform.xsl /tmp/anchor_rss.xml > public/anchor_podtrac_rss.xml
