@@ -1,4 +1,9 @@
 #!/bin/bash
 
-docker-buildx build --platform linux/arm64 -t sib:arm .
-docker-compose -f docker-compose.yml up sib_shell
+if docker compose version >/dev/null 2>&1; then
+    DOCKER_COMPOSE="docker compose"
+else
+    DOCKER_COMPOSE="docker-compose"
+fi
+
+$DOCKER_COMPOSE -f docker-compose.yml up sib_shell
