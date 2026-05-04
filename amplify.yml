@@ -14,6 +14,8 @@ frontend:
         # is merged, revert this to:
         #   - git clone https://github.com/mattstratton/castanet themes/castanet
         - git clone -b fix/hugo-0.158-deprecations https://github.com/ctindel/castanet themes/castanet
+        - echo "Running hugo version"
+        - hugo version
         - hugo
         - yum install -y libxslt
         - curl -o /tmp/anchor_rss.xml 'https://anchor.fm/s/554c0a2c/podcast/rss'
