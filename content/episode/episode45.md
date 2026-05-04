@@ -46,6 +46,8 @@ Links mentioned in the episode:
 
 https://cpet.tc.columbia.edu/articles-author-roberta-lenger-kang.html
 
+https://cpet.tc.columbia.edu/teaching-today.html
+
 https://www.chalkbeat.org/newyork/2025/08/21/brooklyn-high-school-uses-ai-to-improve-student-writing/
 
 https://www.theatlantic.com/technology/archive/2025/08/ai-takeover-education-chatgpt/683840/
