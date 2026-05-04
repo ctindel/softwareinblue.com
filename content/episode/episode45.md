@@ -16,7 +16,7 @@ title = "Episode 45 | Dr. Roberta Lenger Kang | Executive Director at Teachers C
 youtube = "A06v1mLmFFQ"
 categories = ["Cloud Technology"]
 series = ["Exploring the Cloud"]
-tags = ["Cloud", "Technology", "Sales", "AI", "Open Source"]
+tags = ["Cloud", "Technology", "Sales", "AI", "Open Source", "Education"]
 +++
 How is AI being used by kids in schools today and what is the right way to harness and teach AI skills to our children?
 
