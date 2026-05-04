@@ -7,3 +7,16 @@
 dev_publish
 public
 themes
+
+# Python
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+
+# Episode artifacts (audio + transcripts; large + per-machine)
+Episode*/artifacts/
