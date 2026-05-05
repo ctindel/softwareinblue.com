@@ -87,7 +87,8 @@ class WhisperXBackend:
             )
 
         try:
-            diarize_pipeline = whisperx.DiarizationPipeline(
+            from whisperx.diarize import DiarizationPipeline
+            diarize_pipeline = DiarizationPipeline(
                 use_auth_token=opts.hf_token, device=self._align_dev
             )
         except Exception as e:
