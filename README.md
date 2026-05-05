@@ -23,7 +23,9 @@ Automation for "Can I Get That Software in Blue?" episodes — transcription, su
    - On Linux with NVIDIA GPU, install the CUDA wheel of PyTorch first per the official PyTorch site to get GPU acceleration.
 3. Get a Hugging Face token.
    - Create one (read scope) at https://huggingface.co/settings/tokens
-   - Accept gated model terms at https://huggingface.co/pyannote/speaker-diarization-3.1
+   - Accept gated model terms at BOTH:
+     - https://huggingface.co/pyannote/speaker-diarization-community-1
+     - https://huggingface.co/pyannote/segmentation-community-1
    - `cp .env.example .env`, paste token into `HF_TOKEN`.
 4. First-run model download is ~3 GB (Whisper large-v3 + alignment + pyannote).
 

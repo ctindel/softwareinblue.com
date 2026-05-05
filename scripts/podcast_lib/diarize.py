@@ -11,7 +11,7 @@ from typing import Any
 
 def diarize(audio_path: Path, *, hf_token: str, min_speakers: int, max_speakers: int,
             device: str = "cpu") -> Any:
-    """Run pyannote/speaker-diarization-3.1. Returns the pipeline output."""
+    """Run pyannote/speaker-diarization-community-1. Returns the pipeline output."""
     if not hf_token:
         raise RuntimeError(
             "HF_TOKEN not set. Diarization requires a Hugging Face token. "
@@ -23,7 +23,7 @@ def diarize(audio_path: Path, *, hf_token: str, min_speakers: int, max_speakers:
         raise RuntimeError(f"pyannote.audio unavailable: {e}") from e
 
     pipeline = Pipeline.from_pretrained(
-        "pyannote/speaker-diarization-3.1", token=hf_token
+        "pyannote/speaker-diarization-community-1", token=hf_token
     )
     try:
         import torch  # type: ignore

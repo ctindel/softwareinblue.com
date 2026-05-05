@@ -82,8 +82,8 @@ class WhisperXBackend:
         if not opts.hf_token:
             raise RuntimeError(
                 "HF_TOKEN not set. Diarization requires a Hugging Face token "
-                "with access to pyannote/speaker-diarization-3.1. "
-                "See .env.example for setup."
+                "with access to pyannote/speaker-diarization-community-1 and "
+                "pyannote/segmentation-community-1. See .env.example for setup."
             )
 
         try:
@@ -94,8 +94,9 @@ class WhisperXBackend:
         except Exception as e:
             raise RuntimeError(
                 f"Failed to load pyannote diarization pipeline: {e}. "
-                "Confirm you accepted the gated model terms at "
-                "https://huggingface.co/pyannote/speaker-diarization-3.1"
+                "Confirm you accepted the gated model terms at BOTH "
+                "https://huggingface.co/pyannote/speaker-diarization-community-1 "
+                "and https://huggingface.co/pyannote/segmentation-community-1"
             ) from e
 
         diarize_segments = diarize_pipeline(
