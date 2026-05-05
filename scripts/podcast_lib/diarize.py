@@ -23,7 +23,7 @@ def diarize(audio_path: Path, *, hf_token: str, min_speakers: int, max_speakers:
         raise RuntimeError(f"pyannote.audio unavailable: {e}") from e
 
     pipeline = Pipeline.from_pretrained(
-        "pyannote/speaker-diarization-3.1", use_auth_token=hf_token
+        "pyannote/speaker-diarization-3.1", token=hf_token
     )
     try:
         import torch  # type: ignore
