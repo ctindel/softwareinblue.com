@@ -95,7 +95,10 @@ def correct_transcript(transcript: dict[str, Any]) -> tuple[dict[str, Any], list
                         "score": round(best_score, 1),
                     })
                     words[i]["word"] = replacement
-                    words[i]["end"] = words[i + size - 1]["end"]
+                    last_end = words[i + size - 1].get("end")
+                    if last_end is None:
+                        last_end = words[i].get("end") or seg.get("end") or 0.0
+                    words[i]["end"] = last_end
                     for k in range(1, size):
                         words[i + k]["_drop"] = True
                     i += size

@@ -33,18 +33,23 @@ def _cues_for_segment(seg: dict[str, Any]) -> list[tuple[float, float, str]]:
     cur_start: float | None = None
     cur_words: list[str] = []
     for w in words:
+        start = w.get("start")
+        end = w.get("end")
+        if start is None or end is None:
+            continue
         if cur_start is None:
-            cur_start = w["start"]
+            cur_start = start
         cur_words.append(w["word"])
         is_sentence_end = any(w["word"].rstrip().endswith(p) for p in (".", "!", "?"))
-        too_long = w["end"] - cur_start >= MAX_CUE_SECONDS
+        too_long = end - cur_start >= MAX_CUE_SECONDS
         too_many = len(cur_words) >= MAX_CUE_WORDS
         if is_sentence_end or too_long or too_many:
-            cues.append((cur_start, w["end"], " ".join(cur_words).strip()))
+            cues.append((cur_start, end, " ".join(cur_words).strip()))
             cur_words = []
             cur_start = None
     if cur_words and cur_start is not None:
-        cues.append((cur_start, words[-1]["end"], " ".join(cur_words).strip()))
+        last_end = next((w["end"] for w in reversed(words) if w.get("end") is not None), cur_start)
+        cues.append((cur_start, last_end, " ".join(cur_words).strip()))
     return cues
 
 
