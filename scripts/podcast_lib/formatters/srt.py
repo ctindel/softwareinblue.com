@@ -31,26 +31,37 @@ def _cues_for_segment(seg: dict[str, Any]) -> list[tuple[float, float, str]]:
         return []
     cues: list[tuple[float, float, str]] = []
     cur_start: float | None = None
+    cur_end: float | None = None
     cur_words: list[str] = []
     for w in words:
         start = w.get("start")
         end = w.get("end")
         if start is None or end is None:
             continue
+        # Check BEFORE appending: would adding this word exceed budget?
+        if cur_words and cur_start is not None:
+            would_overflow_time = end - cur_start > MAX_CUE_SECONDS
+            already_at_word_cap = len(cur_words) >= MAX_CUE_WORDS
+            if would_overflow_time or already_at_word_cap:
+                cues.append((cur_start, cur_end if cur_end is not None else start,
+                             " ".join(cur_words).strip()))
+                cur_words = []
+                cur_start = None
+                cur_end = None
         if cur_start is None:
             cur_start = start
         cur_words.append(w["word"])
-        is_sentence_end = any(w["word"].rstrip().endswith(p) for p in (".", "!", "?"))
-        too_long = end - cur_start >= MAX_CUE_SECONDS
-        too_many = len(cur_words) >= MAX_CUE_WORDS
-        if is_sentence_end or too_long or too_many:
-            cues.append((cur_start, end, " ".join(cur_words).strip()))
+        cur_end = end
+        if any(w["word"].rstrip().endswith(p) for p in (".", "!", "?")):
+            cues.append((cur_start, cur_end, " ".join(cur_words).strip()))
             cur_words = []
             cur_start = None
-    if cur_words and cur_start is not None:
-        last_end = next((w["end"] for w in reversed(words) if w.get("end") is not None), cur_start)
-        cues.append((cur_start, last_end, " ".join(cur_words).strip()))
-    return cues
+            cur_end = None
+    if cur_words and cur_start is not None and cur_end is not None:
+        cues.append((cur_start, cur_end, " ".join(cur_words).strip()))
+    # Cap any cue whose duration still exceeds the limit (single word longer than
+    # MAX_CUE_SECONDS, e.g. Whisper attaching trailing silence to a word's end).
+    return [(s, min(e, s + MAX_CUE_SECONDS), t) for s, e, t in cues]
 
 
 def render_srt(transcript: dict[str, Any]) -> str:
