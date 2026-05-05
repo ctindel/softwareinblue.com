@@ -8,6 +8,8 @@ from pathlib import Path
 ARTIFACTS_DIRNAME = "artifacts"
 AUDIO_FILENAME = "audio.wav"
 TRANSCRIPT_JSON = "transcript.json"
+TRANSCRIPT_RAW_JSON = "transcript.raw.json"
+TRANSCRIPT_ALIGNED_JSON = "transcript.aligned.json"
 TRANSCRIPT_SRT = "transcript.srt"
 TRANSCRIPT_VTT = "transcript.vtt"
 TRANSCRIPT_TXT = "transcript.txt"
@@ -51,6 +53,14 @@ class ArtifactPaths:
     @property
     def transcript_json(self) -> Path:
         return self.artifacts_dir / TRANSCRIPT_JSON
+
+    @property
+    def transcript_raw(self) -> Path:
+        return self.artifacts_dir / TRANSCRIPT_RAW_JSON
+
+    @property
+    def transcript_aligned(self) -> Path:
+        return self.artifacts_dir / TRANSCRIPT_ALIGNED_JSON
 
     @property
     def transcript_srt(self) -> Path:

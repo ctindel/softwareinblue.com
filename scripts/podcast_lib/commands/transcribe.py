@@ -92,35 +92,100 @@ def run(
     md_state.record_stage("audio", duration_s=round(time.monotonic() - t0, 2), ok=True)
     md_state.save()
 
-    # Stage 2: transcribe + align + diarize
+    # Stage 2: transcribe + align + diarize, with per-stage checkpoints.
     bk = _backend(backend)
     md_state.set("device_info", bk.device_info())
     md_state.save()
 
-    prompt = build_initial_prompt(token_budget=PROMPT_TOKEN_BUDGET)
-    console.print(f"[cyan]Transcribing[/cyan] backend={backend} model={model}")
-    t0 = time.monotonic()
-    try:
-        result = bk.transcribe(
-            paths.audio,
-            TranscriptionOptions(
-                model=model,
-                initial_prompt=prompt,
-                min_speakers=min_speakers,
-                max_speakers=max_speakers,
-                hf_token=os.environ.get("HF_TOKEN"),
-            ),
-        )
-    except NotImplementedError as e:
-        console.print(f"[red]{e}[/red]")
-        raise typer.Exit(2)
-    except Exception as e:
-        console.print(f"[red]Transcription failed: {e}[/red]")
-        md_state.record_stage("transcribe", duration_s=round(time.monotonic() - t0, 2), ok=False, error=str(e))
+    opts = TranscriptionOptions(
+        model=model,
+        initial_prompt=build_initial_prompt(token_budget=PROMPT_TOKEN_BUDGET),
+        min_speakers=min_speakers,
+        max_speakers=max_speakers,
+        hf_token=os.environ.get("HF_TOKEN"),
+    )
+
+    has_staged = all(hasattr(bk, m) for m in ("transcribe_raw", "align_words", "assign_speakers"))
+
+    if not has_staged:
+        # Fallback: backend doesn't support stage checkpoints. Run all-in-one.
+        console.print(f"[cyan]Transcribing[/cyan] backend={backend} model={model}")
+        t0 = time.monotonic()
+        try:
+            result = bk.transcribe(paths.audio, opts)
+        except NotImplementedError as e:
+            console.print(f"[red]{e}[/red]")
+            raise typer.Exit(2)
+        except Exception as e:
+            console.print(f"[red]Transcription failed: {e}[/red]")
+            md_state.record_stage("transcribe", duration_s=round(time.monotonic() - t0, 2), ok=False, error=str(e))
+            md_state.save()
+            raise typer.Exit(2)
+        md_state.record_stage("transcribe", duration_s=round(time.monotonic() - t0, 2), ok=True)
         md_state.save()
-        raise typer.Exit(2)
-    md_state.record_stage("transcribe", duration_s=round(time.monotonic() - t0, 2), ok=True)
-    md_state.save()
+    else:
+        # Staged path with checkpoints.
+        # Stage 2a: raw Whisper transcribe
+        if paths.transcript_aligned.exists() and not force:
+            console.print(f"[cyan]Reusing[/cyan] {paths.transcript_aligned.name}")
+            aligned = json.loads(paths.transcript_aligned.read_text())
+        elif paths.transcript_raw.exists() and not force:
+            console.print(f"[cyan]Reusing[/cyan] {paths.transcript_raw.name}")
+            raw = json.loads(paths.transcript_raw.read_text())
+            console.print(f"[cyan]Aligning words[/cyan]")
+            t0 = time.monotonic()
+            try:
+                aligned = bk.align_words(paths.audio, raw)
+            except Exception as e:
+                console.print(f"[red]Alignment failed: {e}[/red]")
+                md_state.record_stage("align", duration_s=round(time.monotonic() - t0, 2), ok=False, error=str(e))
+                md_state.save()
+                raise typer.Exit(2)
+            paths.transcript_aligned.write_text(json.dumps(aligned, indent=2))
+            md_state.record_stage("align", duration_s=round(time.monotonic() - t0, 2), ok=True)
+            md_state.save()
+        else:
+            console.print(f"[cyan]Transcribing[/cyan] backend={backend} model={model}")
+            t0 = time.monotonic()
+            try:
+                raw = bk.transcribe_raw(paths.audio, opts)
+            except Exception as e:
+                console.print(f"[red]Transcription failed: {e}[/red]")
+                md_state.record_stage("transcribe", duration_s=round(time.monotonic() - t0, 2), ok=False, error=str(e))
+                md_state.save()
+                raise typer.Exit(2)
+            paths.transcript_raw.write_text(json.dumps(raw, indent=2))
+            md_state.record_stage("transcribe", duration_s=round(time.monotonic() - t0, 2), ok=True)
+            md_state.save()
+
+            console.print(f"[cyan]Aligning words[/cyan]")
+            t0 = time.monotonic()
+            try:
+                aligned = bk.align_words(paths.audio, raw)
+            except Exception as e:
+                console.print(f"[red]Alignment failed: {e}[/red]")
+                md_state.record_stage("align", duration_s=round(time.monotonic() - t0, 2), ok=False, error=str(e))
+                md_state.save()
+                raise typer.Exit(2)
+            paths.transcript_aligned.write_text(json.dumps(aligned, indent=2))
+            md_state.record_stage("align", duration_s=round(time.monotonic() - t0, 2), ok=True)
+            md_state.save()
+
+        # Stage 2c: diarize + assign speakers
+        console.print(f"[cyan]Diarizing[/cyan]")
+        t0 = time.monotonic()
+        try:
+            result = bk.assign_speakers(paths.audio, aligned, opts)
+        except NotImplementedError as e:
+            console.print(f"[red]{e}[/red]")
+            raise typer.Exit(2)
+        except Exception as e:
+            console.print(f"[red]Diarization failed: {e}[/red]")
+            md_state.record_stage("diarize", duration_s=round(time.monotonic() - t0, 2), ok=False, error=str(e))
+            md_state.save()
+            raise typer.Exit(2)
+        md_state.record_stage("diarize", duration_s=round(time.monotonic() - t0, 2), ok=True)
+        md_state.save()
 
     # Stage 3: fuzzy correction
     console.print("[cyan]Applying fuzzy jargon correction[/cyan]")

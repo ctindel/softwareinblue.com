@@ -49,10 +49,15 @@ class WhisperXBackend:
         }
 
     def transcribe(self, audio_path: Path, opts: TranscriptionOptions) -> dict[str, Any]:
+        raw = self.transcribe_raw(audio_path, opts)
+        aligned = self.align_words(audio_path, raw)
+        return self.assign_speakers(audio_path, aligned, opts)
+
+    def transcribe_raw(self, audio_path: Path, opts: TranscriptionOptions) -> dict[str, Any]:
+        """Whisper transcription pass. Returns dict with 'language' + 'segments' (no word ts yet)."""
         import whisperx  # type: ignore
 
         audio = whisperx.load_audio(str(audio_path))
-
         model = whisperx.load_model(
             opts.model,
             device=self._tx_dev,
@@ -61,23 +66,31 @@ class WhisperXBackend:
         )
         result = model.transcribe(audio, batch_size=16)
         del model
-        try:
-            import gc
-            gc.collect()
-            import torch  # type: ignore
-            if self._tx_dev == "cuda":
-                torch.cuda.empty_cache()
-        except Exception:
-            pass
+        self._free_memory()
+        # Stash language at top level for downstream stages.
+        return {"language": result["language"], "segments": result["segments"]}
 
+    def align_words(self, audio_path: Path, raw: dict[str, Any]) -> dict[str, Any]:
+        """Word-level forced alignment. Returns dict with 'segments' (now with word timestamps)
+        and 'language' preserved."""
+        import whisperx  # type: ignore
+
+        audio = whisperx.load_audio(str(audio_path))
         align_model, align_meta = whisperx.load_align_model(
-            language_code=result["language"], device=self._align_dev
+            language_code=raw["language"], device=self._align_dev
         )
         aligned = whisperx.align(
-            result["segments"], align_model, align_meta, audio,
+            raw["segments"], align_model, align_meta, audio,
             self._align_dev, return_char_alignments=False,
         )
         del align_model
+        self._free_memory()
+        aligned["language"] = raw["language"]
+        return aligned
+
+    def assign_speakers(self, audio_path: Path, aligned: dict[str, Any], opts: TranscriptionOptions) -> dict[str, Any]:
+        """Run pyannote diarization and merge speaker labels into aligned segments."""
+        import whisperx  # type: ignore
 
         if not opts.hf_token:
             raise RuntimeError(
@@ -85,7 +98,6 @@ class WhisperXBackend:
                 "with access to pyannote/speaker-diarization-community-1 and "
                 "pyannote/segmentation-community-1. See .env.example for setup."
             )
-
         try:
             from whisperx.diarize import DiarizationPipeline
             diarize_pipeline = DiarizationPipeline(
@@ -105,5 +117,15 @@ class WhisperXBackend:
             max_speakers=opts.max_speakers,
         )
         final = whisperx.assign_word_speakers(diarize_segments, aligned)
-        final["language"] = result["language"]
+        final["language"] = aligned.get("language")
         return final
+
+    def _free_memory(self) -> None:
+        try:
+            import gc
+            gc.collect()
+            import torch  # type: ignore
+            if self._tx_dev == "cuda":
+                torch.cuda.empty_cache()
+        except Exception:
+            pass
