@@ -3,9 +3,6 @@ typer[all]>=0.12
 rich>=13
 python-dotenv>=1.0
 
-# Audio
-ffmpeg-python>=0.2
-
 # Transcription
 whisperx>=3.1
 torch>=2.2
