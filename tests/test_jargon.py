@@ -29,7 +29,7 @@ def test_all_terms_dedupes() -> None:
 def test_build_initial_prompt_under_token_cap() -> None:
     prompt = build_initial_prompt(token_budget=200)
     assert len(prompt) < 200 * 5
-    assert prompt.startswith("Topics include:") or prompt.startswith("Glossary:")
+    assert prompt.startswith("Glossary:")
 
 
 def test_build_initial_prompt_deterministic() -> None:
