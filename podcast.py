@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Top-level Typer CLI for SIB podcast post-processing."""
 from __future__ import annotations
 
