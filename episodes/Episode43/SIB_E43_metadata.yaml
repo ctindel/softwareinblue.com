@@ -1,0 +1,9 @@
+schema_version: 1
+episode:
+  number: 43
+  tagline: Cameras will not solve the self-driving problem
+  tagline_highlight: self-driving problem
+  show_notes:
+  - heading: ''
+    urls:
+    - https://www.proofsight.com

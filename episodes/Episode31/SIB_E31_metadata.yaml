@@ -1,0 +1,15 @@
+schema_version: 1
+episode:
+  number: 31
+  tagline: Selling is hard, but buying is harder
+  tagline_highlight: buying is harder
+  show_notes:
+  - heading: Selling is Hard, Buying is Harder
+    urls:
+    - https://www.amazon.com/Selling-Hard-Buying-Harder-Enablement/dp/1632992949
+  - heading: Two presales in a pod Podcast
+    urls:
+    - https://www.linkedin.com/company/2-presales-in-a-pod/
+  - heading: Burning Presales Podcast
+    urls:
+    - https://podcasters.spotify.com/pod/show/burning-presales

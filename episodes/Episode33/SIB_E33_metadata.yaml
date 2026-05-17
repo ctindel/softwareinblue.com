@@ -1,0 +1,10 @@
+schema_version: 1
+episode:
+  number: 33
+  tagline: All of life is improv
+  tagline_highlight: improv
+  show_notes:
+  - heading: ''
+    urls:
+    - https://devfirst.substack.com/p/kpis-for-developer-relations-teams
+    - https://www.amazon.com/Humor-Seriously-Secret-Business-harness/dp/0593135288

@@ -1,0 +1,65 @@
+*~
+.*~
+.*.swp
+*.pyc
+.DS_Store
+*.lock
+dev_publish
+
+# Hugo build outputs (now under hugosite/)
+hugosite/public
+hugosite/themes
+hugosite/.hugo_build.lock
+
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+
+# Per-episode artifacts (audio + transcripts; large + per-machine)
+Episode*/artifacts/
+episodes/*/artifacts/
+
+# Video files (large, delivered by producer)
+*.mp4
+*.MP4
+*.mov
+*.MOV
+
+# Thumbnail variants we don't keep in repo (only w1, c1, d2 are committed)
+# These can be regenerated from design/gen_sib_exports.py
+hugosite/static/img/episode/*/a1/
+hugosite/static/img/episode/*/a2/
+hugosite/static/img/episode/*/a3/
+hugosite/static/img/episode/*/a1w/
+hugosite/static/img/episode/*/a2w/
+hugosite/static/img/episode/*/a3w/
+hugosite/static/img/episode/*/c2/
+hugosite/static/img/episode/*/c3/
+hugosite/static/img/episode/*/d1/
+hugosite/static/img/episode/*/w2/
+hugosite/static/img/episode/*/headshots/
+hugosite/static/img/episode/*/illustrations/
+
+# Clip thumbnails: only d2 kept
+hugosite/static/img/episode/*/Clip*/a1/
+hugosite/static/img/episode/*/Clip*/a2/
+hugosite/static/img/episode/*/Clip*/a3/
+hugosite/static/img/episode/*/Clip*/a1w/
+hugosite/static/img/episode/*/Clip*/a2w/
+hugosite/static/img/episode/*/Clip*/a3w/
+hugosite/static/img/episode/*/Clip*/c1/
+hugosite/static/img/episode/*/Clip*/c2/
+hugosite/static/img/episode/*/Clip*/c3/
+hugosite/static/img/episode/*/Clip*/d1/
+hugosite/static/img/episode/*/Clip*/w1/
+hugosite/static/img/episode/*/Clip*/w2/
+
+# Brainstorming visual companion (transient mockups)
+.superpowers/

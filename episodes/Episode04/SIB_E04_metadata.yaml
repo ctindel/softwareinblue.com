@@ -1,0 +1,33 @@
+schema_version: 1
+episode:
+  number: 4
+  tagline: A Bitcoin will always be a Bitcoin
+  tagline_highlight: always be a Bitcoin
+  show_notes:
+  - heading: Coinbase S1
+    urls:
+    - https://d18rn0p25nwr6d.cloudfront.net/CIK-0001679788/699359de-d974-4ad9-b7f6-5031f2f432d3.pdf
+  - heading: Takeaways from Coinbase S1
+    urls:
+    - https://techcrunch.com/2021/02/25/five-takeaways-from-coinbases-s-1/
+  - heading: Mark Cuban says ETH will dwarf BTC
+    urls:
+    - https://www.cnbc.com/2021/05/05/mark-cuban-ways-ethereum-dwarfs-bitcoin.html
+  - heading: Michael Saylor interview
+    urls:
+    - https://www.youtube.com/watch?v=zr_3F-zNM8g
+  - heading: Out of the Ether
+    urls:
+    - https://www.amazon.com/Out-Ether-Amazing-Ethereum-Destroyed/dp/1119602939
+  - heading: NY Power Plant coin mining
+    urls:
+    - https://www.syracuse.com/news/2021/05/as-bitcoin-mining-hooks-into-upstate-ny-power-plants-some-wonder-if-its-just-more-hot-air.html
+  - heading: Bitcoin uses more energy than all FAAMG companies combined
+    urls:
+    - https://www.theecoexperts.co.uk/blog/bitcoin-uses-more-energy-than-amazon
+  - heading: New ETH will be environmentally friendly
+    urls:
+    - https://www.tomsguide.com/news/ethereum-crypto-will-soon-be-9995-more-environmentally-friendly-heres-how
+  - heading: Coinbase runs on AWS
+    urls:
+    - https://aws.amazon.com/solutions/case-studies/coinbase/

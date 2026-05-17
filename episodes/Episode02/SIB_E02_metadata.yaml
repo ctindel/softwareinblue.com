@@ -1,0 +1,50 @@
+# SIB episode metadata — drives gen_sib_exports.py + Spotify description.
+# Never duplicate these fields in the Hugo episode<N>.md frontmatter.
+
+schema_version: 1
+
+episode:
+  number: 2
+  tagline: "Champagne pours from the skies"
+  tagline_highlight: "Champagne pours"
+
+  long_description: >-
+    Your hosts Steve Mayzak and Chad Tindel are joined by serial
+    entrepreneur and stock market investor Kyle Schroeder to break
+    down the latest DraftKings 10K filing and recent earnings call.
+    Then Nick Drost, a Senior Director of Sales Engineering and
+    Solution Architecture at Elastic, joins the show to discuss how
+    to apply what was learned from the DraftKings 10K breakdown when
+    approaching a sales motion with a customer.
+
+
+    The crew also covers a range of recent tech news topics — new
+    Clubhouse competitors, NFTs being lost, China's new digital yuan,
+    and Apple removing items from Apple Maps at the request of the
+    Chinese government.
+
+  show_notes:
+    - heading: "DraftKings 10K and recent earnings"
+      urls:
+        - "https://sec.report/Document/0001104659-21-028617/"
+        - "https://draftkings.gcs-web.com/static-files/b6d58aa0-cb2d-4d9f-b994-59926fd39299"
+        - "https://venturefizz.com/stories/boston/engineering-spotlight-draftkings"
+        - "https://aws.amazon.com/blogs/modernizing-with-aws/modernizing-legacy-net-applications-draftkings-principles-for-success/"
+    - heading: "New Clubhouse Competitors"
+      urls:
+        - "https://techxplore.com/news/2021-03-spotify-clubhouse-competitor-betty-labs.html"
+        - "https://techcrunch.com/2021/04/07/facebook-tests-hotline-a-qa-product-thats-a-mashup-of-clubhouse-and-instagram-live/"
+        - "https://www.rockpapershotgun.com/discord-has-launched-a-clubhouse-style-audio-channel-feature"
+    - heading: "Clubhouse valuation goes from $1B in january to $4B in April"
+      urls:
+        - "https://www.pymnts.com/news/investment-tracker/2021/clubhouse-rolls-out-payments-mulls-funding-4-billion-dollar-valuation/"
+    - heading: "NFTs keep vanishing"
+      urls:
+        - "https://www.vice.com/en/article/pkdj79/peoples-expensive-nfts-keep-vanishing-this-is-why"
+        - "https://www.theatlantic.com/ideas/archive/2021/04/nfts-werent-supposed-end-like/618488"
+    - heading: "China's new digital yuan"
+      urls:
+        - "https://www.cnbc.com/2021/03/05/chinas-digital-yuan-what-is-it-and-how-does-it-work.html"
+    - heading: "Apple Removes Maps entries at China's request"
+      urls:
+        - "https://appleinsider.com/articles/21/03/26/hm-erased-from-apple-maps-other-platforms-in-china-amid-boycott"

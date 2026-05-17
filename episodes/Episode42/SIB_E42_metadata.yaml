@@ -1,0 +1,18 @@
+schema_version: 1
+episode:
+  number: 42
+  tagline: True leadership spans reporting lines
+  tagline_highlight: True leadership
+  show_notes:
+  - heading: Clickhouse HyperDX acquisition
+    urls:
+    - https://clickhouse.com/blog/clickhouse-acquires-hyperdx-the-future-of-open-source-observability
+  - heading: Clickhouse PeerDB acquisition
+    urls:
+    - https://clickhouse.com/blog/clickhouse-acquires-peerdb-to-boost-real-time-analytics-with-postgres-cdc-integration
+  - heading: Debugging story from Clickhouse SRE
+    urls:
+    - https://clickhouse.com/blog/a-case-of-the-vanishing-cpu-a-linux-kernel-debugging-story
+  - heading: Essentialism Book
+    urls:
+    - https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382

@@ -1,0 +1,23 @@
+schema_version: 1
+episode:
+  number: 11
+  tagline: Crypto is the wild west still
+  tagline_highlight: wild west
+  show_notes:
+  - heading: Links mentioned in the episode
+    urls:
+    - https://web3.foundation
+    - https://www.theverge.com/2021/3/11/22325054/beeple-christies-nft-sale-cost-everydays-69-million
+    - https://www.bbc.com/news/technology-59568929
+    - https://www.theverge.com/2021/11/24/22801332/nfl-all-day-nft-sports-top-shot-collectible-dapper-labs
+    - https://www.winespectator.com/articles/robert-mondavi-goes-nft-with-bernardaud-bottles
+  - heading: Constitution DAO
+    urls:
+    - https://www.forbes.com/sites/abrambrown/2021/12/01/crypto-tokens-people-constitution-dao-ether-redeem-refund/
+  - heading: This Week in Startups DAO Deepdive
+    urls:
+    - https://thisweekinstartups.com/breaking-down-rivians-ipo-and-100b-valuation-dao-deep-dive-with-openlaws-aaron-wright-e1324/
+  - heading: Out of the Ether
+    urls:
+    - https://www.amazon.com/Out-Ether-Amazing-Ethereum-Destroyed/dp/1119602939
+    - https://www.theverge.com/2021/12/21/22848162/jack-dorsey-web3-criticism-a16z-ownership-venture-capital-twitter

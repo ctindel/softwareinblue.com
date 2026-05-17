@@ -1,0 +1,12 @@
+schema_version: 1
+episode:
+  number: 16
+  tagline: Sellers want to get to yes quick
+  tagline_highlight: yes quick
+  show_notes:
+  - heading: Mike Russell on LinkedIn
+    urls:
+    - https://www.linkedin.com/in/michaeljohnrussell
+  - heading: Mutual of America Financial Group
+    urls:
+    - https://www.mutualofamerica.com/

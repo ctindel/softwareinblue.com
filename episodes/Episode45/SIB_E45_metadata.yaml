@@ -1,0 +1,291 @@
+schema_version: 1
+episode:
+  number: 45
+  posting_date: '2026-05-05'
+  duration: '1:05:58'
+  hugo_title: Episode 45 | Dr. Roberta Lenger Kang | Executive Director at Teachers
+    College, Columbia University
+  tagline: You can't outsource teaching
+  tagline_highlight: outsource teaching
+  guest:
+    slug: robertakang
+    full_name: Dr. Roberta Lenger Kang
+    full_title: Executive Director at the Center for the Professional Education of
+      Teachers at Teachers College, Columbia University
+    short_title: Executive Director at Teachers College, Columbia University
+    company: Teachers College, Columbia University
+    headshot_original: hugosite/static/img/guest/robertakang.jpg
+    headshot_bg_removed: hugosite/static/img/episode/Episode45/headshots/robertakang-nobg.png
+    twitter_handle: ''
+    twitter_title: Executive Director at @TCCPET
+  hosts:
+  - Chad Tindel
+  - Steve Mayzak
+  images:
+    balloon_no_overlay: hugosite/static/img/episode/Episode45/illustrations/SIB_E45_Balloon_no_overlay.png
+    balloon_with_overlay: hugosite/static/img/episode/Episode45/illustrations/SIB_E45_Balloon_with_overlay.png
+    podcast_cover_canonical: hugosite/static/img/episode/Episode45/w1/podcast-cover-3000x3000.png
+  links:
+    youtube_full: https://youtu.be/A06v1mLmFFQ
+    spotify: https://open.spotify.com/episode/1gT8U3JHXYqVVh1Xaj0wpp?si=vDkMMEQgSNm-B1zO_IG3Aw
+    apple_podcasts: https://podcasts.apple.com/us/podcast/episode-45-dr-roberta-lenger-kang-executive-director/id1561899125?i=1000765955445
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_youtube_text: ''
+  long_description: 'How is AI being used by kids in schools today and what is the
+    right way to harness and teach AI skills to our children?
+
+
+    Dr. Roberta Lenger Kang is a world-renowned expert in modern techniques for teacher
+    training and development. Her work at the Center for the Professional Education
+    of Teachers at Columbia University takes her around the world where she and her
+    team are brought in to overhaul teacher training programs in ways that align with
+    the local curriculum, needs of students, and social customs and norms that can
+    affect the incentive structures for how students and teachers learn.
+
+
+    Dr. Kang holds an Ed.D. from Teachers College at Columbia University, where her
+    research work and dissertation ("Assessment Matters: Negotiating the New York
+    State English Regents Exam") focused on the history and pitfalls of high-stakes
+    testing in the NY Department of Education.
+
+
+    Dr. Kang joins us today to discuss the use of AI in education, where it can go
+    wrong and how it can be used to help students learn better. Her organization consulted
+    on the development of ConnectInk, an AI application that helps students become
+    better writers.
+
+    '
+  links_mentioned:
+  - https://cpet.tc.columbia.edu/articles-author-roberta-lenger-kang.html
+  - https://cpet.tc.columbia.edu/teaching-today.html
+  - https://www.chalkbeat.org/newyork/2025/08/21/brooklyn-high-school-uses-ai-to-improve-student-writing/
+  - https://www.theatlantic.com/technology/archive/2025/08/ai-takeover-education-chatgpt/683840/
+  twitter_topic: the use of AI in education and how to teach kids to harness it well
+  show_notes:
+  - heading: ''
+    urls:
+    - https://cpet.tc.columbia.edu/articles-author-roberta-lenger-kang.html
+    - https://cpet.tc.columbia.edu/teaching-today.html
+    - https://www.chalkbeat.org/newyork/2025/08/21/brooklyn-high-school-uses-ai-to-improve-student-writing/
+    - https://www.theatlantic.com/technology/archive/2025/08/ai-takeover-education-chatgpt/683840/
+clips:
+- number: 1
+  timestamp_start: 00:10:49
+  timestamp_end: 00:14:11
+  quote_starts_with: It seems like you are not a fan of these exams
+  quote_ends_with: you need to have high expectations for all
+  description: why she's not a fan of high stakes testing because of how detrimental
+    they can be for children
+  overlay_text: Standardized tests are a physical violence
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 2
+  timestamp_start: 00:23:21
+  timestamp_end: 00:28:10
+  quote_starts_with: Do you think standardized tests are something we should keep
+    doing as a society?
+  quote_ends_with: yeah those are really hard times
+  description: whether standardized tests are something we should keep doing as a
+    society
+  overlay_text: Should standardized tests be replaced by AI?
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 3
+  timestamp_start: 00:28:11
+  timestamp_end: 00:30:16
+  quote_starts_with: Nothing can replicate the in-person experience
+  quote_ends_with: it is not economical
+  description: why using all your senses is important in the learning process and
+    why kids should be co-authors in their learning journey
+  overlay_text: Kids should be co-authors in their learning journey
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 4
+  timestamp_start: 00:30:16
+  timestamp_end: 00:34:18
+  quote_starts_with: I'm trying to understand
+  quote_ends_with: so that we can be highly effective
+  description: what the Center for Professional Education of Teachers does and how
+    CPET fits into the picture for what and how we teach today
+  overlay_text: Kids learn differently than adults!
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 5
+  timestamp_start: 00:34:50
+  timestamp_end: 00:38:01
+  quote_starts_with: How does that change when you go to China
+  quote_ends_with: kids are sitting in rows and tables
+  description: how CPET learns the different educational baselines of each culture
+    when designing their international consulting workshops and plans
+  overlay_text: In China they have 75 12-year-olds in a class
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 6
+  timestamp_start: 00:39:12
+  timestamp_end: 00:40:06
+  quote_starts_with: Is that an argument for saying everyone should have
+  quote_ends_with: that may be considered outliers
+  description: how students can be grouped by general learning style and why that
+    means not everyone needs an individualized education plan
+  overlay_text: Not everyone needs an individualized education plan
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 7
+  timestamp_start: 00:40:25
+  timestamp_end: 00:44:55
+  quote_starts_with: If you had to look forward and make some guesses
+  quote_ends_with: ways to use our tools to help us be more human rather than less
+  description: why AI being used to add to an idea you already had is a better use
+    than using AI to fill a deficit in your thinking
+  overlay_text: Don't outsource your thinking to AI
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 8
+  timestamp_start: 00:44:55
+  timestamp_end: 00:49:24
+  quote_starts_with: What does that mean to be more human?
+  quote_ends_with: much more customizable and safer for kids and teachers to use
+  description: why we need more attention around safety and legal features of AI platforms
+    being used by schools
+  overlay_text: Teachers are saving 5–10 hours a week with AI
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 9
+  timestamp_start: 00:49:25
+  timestamp_end: 00:51:59
+  quote_starts_with: In terms of using AI to learn our reading
+  quote_ends_with: complete my tasks so I don't have to think about this
+  description: whether schools should be teaching kids how to use AI so they're more
+    prepared for using it in the real world
+  overlay_text: AI literacy is an issue of equity
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 10
+  timestamp_start: 00:52:06
+  timestamp_end: 00:53:50
+  quote_starts_with: Sometimes it feels like we just don't invest enough as a country
+    in education tech
+  quote_ends_with: not just the quick buck that the boom is going to bring
+  description: whether AI tool creators are listening to what teachers and districts
+    actually need
+  overlay_text: Educators are being flooded by AI apps
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 11
+  timestamp_start: 00:53:53
+  timestamp_end: 00:58:04
+  quote_starts_with: You mentioned using specific apps that are designed by teachers
+  quote_ends_with: prompt them to look at some mentor texts
+  description: the ConnectINK app, which she and CPET consulted on the development
+    of with Rahul Patel — an AI writing coach for students
+  overlay_text: The tool should never write on behalf of the student
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 12
+  timestamp_start: 01:01:30
+  timestamp_end: 01:03:30
+  quote_starts_with: You can learn more about ConnectINK on the podcast we did
+  quote_ends_with: yeah, that's right
+  description: why our goal to eliminate pain and hardship is really a goal to stop
+    being human
+  overlay_text: You can't get stronger without lifting the weight
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+templates:
+  footer: 'Subscribe to us on your favorite social media platforms to get notified
+    about new episodes!
+
+
+    Our website: https://softwareinblue.com
+
+
+    Twitter: https://twitter.com/softwareinblue
+
+
+    LinkedIn: https://linkedin.com/company/softwareinblue
+
+
+    Youtube:  https://youtube.com/channel/UC8qfPUKO_rPmtvuB4nV87rg
+
+
+    TikTok: https://www.tiktok.com/@softwareinblue
+
+
+    Apple Podcasts: https://podcasts.apple.com/us/podcast/can-i-get-that-software-in-blue/id1561899125
+
+
+    Spotify: https://open.spotify.com/show/25r9ckggqIv6rGU8ca0WP2
+
+    '
+  clip_long: 'In this short clip, {guest_name}, {guest_title}, joins Chad Tindel and
+    Steve Mayzak to discuss {clip_description}.
+
+
+    View the full episode here:
+
+
+    {episode_youtube_full}
+
+
+    {footer}
+
+    '
+  clip_twitter: In this short clip {guest_twitter_or_name}, {twitter_title}, tells
+    @ctindel and @smayzak {clip_description}.
+  episode_long: '{long_description}
+
+
+    Episode #{episode_number} of "Can I get that software in blue?", a podcast by
+    and for people engaged in technology sales. If you are in the technology presales,
+    solution architecture, sales, support or professional services career paths then
+    this show is for you!
+
+
+    {footer}
+
+
+    Links mentioned in the episode:
+
+
+    {links_mentioned_block}
+
+    '
+  episode_twitter: In ep. {episode_number}, {guest_twitter_or_name}, {twitter_title},
+    joins @ctindel and @smayzak to discuss {twitter_topic}.

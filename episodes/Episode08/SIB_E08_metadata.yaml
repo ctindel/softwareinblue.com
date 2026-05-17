@@ -1,0 +1,15 @@
+schema_version: 1
+episode:
+  number: 8
+  tagline: Do we really need 5G?
+  tagline_highlight: really need 5G
+  show_notes:
+  - heading: Timo's blog about Open Radio Access Networks
+    urls:
+    - https://www.redhat.com/en/blog/open-ran-and-o-ran-brief
+  - heading: Verizon and Azure Edge Computing
+    urls:
+    - https://www.verizon.com/about/news/verizon-debuts-cloud-computing-microsoft-azure
+  - heading: 90 Day Finn
+    urls:
+    - https://www.helsinkibusinesshub.fi/90-day-finn/

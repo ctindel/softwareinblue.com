@@ -1,0 +1,9 @@
+schema_version: 1
+episode:
+  number: 36
+  tagline: People stole servers to sell on eBay
+  tagline_highlight: stole servers
+  show_notes:
+  - heading: ELK Stack Mr. Robot
+    urls:
+    - https://www.youtube.com/watch?v=3sWxfLNV_wE

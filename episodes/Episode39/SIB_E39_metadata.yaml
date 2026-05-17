@@ -1,0 +1,12 @@
+schema_version: 1
+episode:
+  number: 39
+  tagline: The value of software is defined by its optionality
+  tagline_highlight: optionality
+  show_notes:
+  - heading: Why Salesforce Must Die
+    urls:
+    - https://www.linkedin.com/feed/update/urn:li:activity:7284878009906417664/
+  - heading: Nobody is Hiring Junior Engineers
+    urls:
+    - https://www.linkedin.com/posts/alex-jukes_no-ones-hiring-juniors-engineering-managers-activity-7295756561128259584-hGtH

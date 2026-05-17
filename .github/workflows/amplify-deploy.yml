@@ -1,0 +1,28 @@
+name: Trigger Amplify deploy
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'scripts/**'
+      - '.claude/**'
+      - 'docs/**'
+      - 'tests/**'
+      - 'podcast.py'
+      - 'requirements.txt'
+      - '.env.example'
+      - '.gitignore'
+      - '**/*.md'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: POST to Amplify webhook
+        run: |
+          curl -fsS -X POST \
+            -H 'Content-Type: application/json' \
+            -d '{}' \
+            "${AMPLIFY_WEBHOOK_URL}"
+        env:
+          AMPLIFY_WEBHOOK_URL: ${{ secrets.AMPLIFY_WEBHOOK_URL }}

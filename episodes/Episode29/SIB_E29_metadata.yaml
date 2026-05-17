@@ -1,0 +1,11 @@
+schema_version: 1
+episode:
+  number: 29
+  tagline: You can have features or dates but not both
+  tagline_highlight: features or dates
+  show_notes:
+  - heading: ''
+    urls:
+    - https://clickhouse.com/blog/my-journey-as-a-serial-startup-product-manager
+    - https://clickhouse.com/blog/vector-search-clickhouse-p1
+    - https://clickhouse.com/blog/vector-search-clickhouse-p2

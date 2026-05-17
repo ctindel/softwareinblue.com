@@ -1,0 +1,30 @@
+schema_version: 1
+episode:
+  number: 37
+  tagline: AI native databases turn chicken s**t into chicken salad
+  tagline_highlight: chicken s**t into chicken salad
+  show_notes:
+  - heading: History of Weaviate
+    urls:
+    - https://weaviate.io/blog/history-of-weaviate
+  - heading: Bob's Ted Talk
+    urls:
+    - https://www.ted.com/talks/bob_van_luijt_digital_technology_through_the_lens_of_language
+  - heading: University of Kent Meshcode Memory News Article
+    urls:
+    - https://www.kent.ac.uk/news/science/27956/a-new-theory-for-how-memories-are-stored-in-the-brain
+  - heading: Meshcode Paper
+    urls:
+    - https://pubmed.ncbi.nlm.nih.gov/33716664/
+  - heading: Antifragile
+    urls:
+    - https://en.wikipedia.org/wiki/Antifragile_(book)
+  - heading: Nearest Neighbor Benchmarks
+    urls:
+    - https://ann-benchmarks.com/
+  - heading: OpenAI and Newscorp Licensing Deal
+    urls:
+    - https://variety.com/2024/digital/news/news-corp-openai-licensing-deal-1236013734/
+  - heading: DSPY self-improving pipelines
+    urls:
+    - https://arxiv.org/pdf/2310.03714

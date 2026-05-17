@@ -1,0 +1,12 @@
+schema_version: 1
+episode:
+  number: 34
+  tagline: The truth changes over time
+  tagline_highlight: truth changes
+  show_notes:
+  - heading: History of Lucene
+    urls:
+    - https://www.elastic.co/celebrating-lucene
+  - heading: Attention is all you need
+    urls:
+    - https://arxiv.org/abs/1706.03762

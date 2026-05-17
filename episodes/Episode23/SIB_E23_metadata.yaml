@@ -1,0 +1,12 @@
+schema_version: 1
+episode:
+  number: 23
+  tagline: Most people don't care about the license
+  tagline_highlight: don't care
+  show_notes:
+  - heading: Links mentioned in the episode
+    urls:
+    - http://www.cleverpm.com/2015/08/11/understanding-how-to-lead-through-influence/
+    - https://www.reddit.com/r/Stadia/comments/xvma0l/peter_yang_why_google_abandons_so_many_products/
+    - https://www.forbes.com/sites/paultassi/2022/12/17/john-carmack-quits-meta-has-traditionally-harsh-words-on-the-way-out/?sh=7a9d8ea6e71c
+    - https://www.bloomberg.com/news/articles/2023-02-07/meta-to-ask-many-managers-to-become-individual-contributors-or-leave?sref=IvuvZyc3

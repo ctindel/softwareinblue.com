@@ -1,0 +1,9 @@
+schema_version: 1
+episode:
+  number: 38
+  tagline: Cloudflare sees threats nobody else would ever see
+  tagline_highlight: Cloudflare|threats
+  show_notes:
+  - heading: Cloudflare 2024 Year in Review
+    urls:
+    - https://blog.cloudflare.com/radar-2024-year-in-review/

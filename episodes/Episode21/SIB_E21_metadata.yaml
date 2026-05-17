@@ -1,0 +1,9 @@
+schema_version: 1
+episode:
+  number: 21
+  tagline: Everything in GTM is education
+  tagline_highlight: everything in GTM
+  show_notes:
+  - heading: Momento's Home page
+    urls:
+    - https://www.gomomento.com

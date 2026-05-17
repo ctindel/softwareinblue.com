@@ -1,0 +1,15 @@
+schema_version: 1
+episode:
+  number: 19
+  tagline: Governing is predicting in a probabilistic world
+  tagline_highlight: probabilistic world
+  show_notes:
+  - heading: Emile's Company, Hypermind
+    urls:
+    - https://www.hypermind.com
+  - heading: Hypermind Prediction Contests
+    urls:
+    - https://predict.hypermind.com/
+  - heading: Google CEO uses crowd intelligence
+    urls:
+    - https://www.cnbc.com/2022/07/31/google-ceo-to-employees-productivity-and-focus-must-improve.html

@@ -1,0 +1,15 @@
+schema_version: 1
+episode:
+  number: 30
+  tagline: All intelligence is collective intelligence
+  tagline_highlight: collective intelligence
+  show_notes:
+  - heading: Stephen Wolfram's ChatGPT Explanation
+    urls:
+    - https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
+  - heading: Sparks of AGI
+    urls:
+    - https://youtu.be/qbIk7-JPB2c?si=5YpTH-2nKH6CkL-b
+  - heading: Lex Fridman Interview with Stephen Wolfram
+    urls:
+    - https://www.youtube.com/watch?v=PdE-waSx-d8

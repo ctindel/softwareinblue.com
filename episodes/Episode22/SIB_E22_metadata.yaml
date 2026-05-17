@@ -1,0 +1,17 @@
+schema_version: 1
+episode:
+  number: 22
+  tagline: Money was cheap
+  tagline_highlight: cheap
+  show_notes:
+  - heading: Links mentioned in the episode
+    urls:
+    - https://fortune.com/2023/01/20/work-from-home-remote-work-morgan-stanley-ceo-james-gorman-not-employee-choice/
+    - https://www.forbes.com/sites/qai/2023/01/18/disney-ceo-bob-iger-requires-hybrid-staff-to-return-to-the-office-at-least-four-days-a-weekheres-how-employees-and-investors-have-responded/?sh=e96845e23226
+    - https://www.businessinsider.com/goldman-sachs-return-office-policy-65-percent-workers-wfh-2022-10
+    - https://www.theverge.com/2022/11/10/23452196/elon-musk-twitter-employee-meeting-q-and-a
+    - https://www.theregister.com/2022/12/02/salesforce_office_worker_return/
+    - https://www.bloomberg.com/news/articles/2023-01-19/jamie-dimon-says-work-from-home-doesn-t-work-for-young-staff-management
+  - heading: The future of HR
+    urls:
+    - https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/hrs-new-operating-model

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if docker compose version >/dev/null 2>&1; then
+    DOCKER_COMPOSE="docker compose"
+else
+    DOCKER_COMPOSE="docker-compose"
+fi
+
+$DOCKER_COMPOSE -f docker-compose.yml up sib_shell

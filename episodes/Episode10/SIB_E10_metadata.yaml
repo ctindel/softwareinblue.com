@@ -1,0 +1,18 @@
+schema_version: 1
+episode:
+  number: 10
+  tagline: Products do my demand generation
+  tagline_highlight: demand generation
+  show_notes:
+  - heading: Zoominfo first IPO offering after Covid
+    urls:
+    - https://www.forbes.com/sites/davidjeans/2020/06/04/despite-a-crumpled-ipo-market-zoominfo-enters-as-the-largest-tech-offering-of-2020/
+  - heading: Why Zoominfo decided to IPO during a pandemic
+    urls:
+    - https://pipeline.zoominfo.com/marketing/zoominfo-ipo-during-pandemic
+  - heading: MEDICC Sales Qualification Methodology
+    urls:
+    - https://meddicc.com/
+  - heading: EBITDA is BS Earnings
+    urls:
+    - https://www.forbes.com/sites/brentbeshore/2014/11/13/ebitda-is-bs-earnings/

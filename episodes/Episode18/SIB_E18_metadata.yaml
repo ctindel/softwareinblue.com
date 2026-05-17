@@ -1,0 +1,9 @@
+schema_version: 1
+episode:
+  number: 18
+  tagline: No founder likes fundraising
+  tagline_highlight: likes fundraising
+  show_notes:
+  - heading: Facebook slashes eng hiring plans by 30%
+    urls:
+    - https://ground.news/article/meta-slashes-hiring-plans-girds-for-fierce-headwinds_02b3f1

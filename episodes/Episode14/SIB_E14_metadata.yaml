@@ -1,0 +1,22 @@
+schema_version: 1
+episode:
+  number: 14
+  tagline: Women are more risk averse
+  tagline_highlight: risk averse
+  show_notes:
+  - heading: Monica's new company Xata
+    urls:
+    - https://xata.io
+  - heading: Xata's $30M Series A announcement
+    urls:
+    - https://xata.io/blog/xata-series-a-announcement
+  - heading: Monica's previous organization for mentoring Women Tupu
+    urls:
+    - https://tupu.io
+  - heading: Wander, a high-end airbnb competitor
+    urls:
+    - https://www.wander.com
+  - heading: Tactic, a specialized search engine for outbound sales management and
+      CRM
+    urls:
+    - https://tactic.fyi

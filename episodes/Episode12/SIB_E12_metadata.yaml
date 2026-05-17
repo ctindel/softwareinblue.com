@@ -1,0 +1,24 @@
+schema_version: 1
+episode:
+  number: 12
+  tagline: Empathy doesn't mean being nice
+  tagline_highlight: being nice
+  show_notes:
+  - heading: Empathy is the most important Leadership Skill
+    urls:
+    - https://www.forbes.com/sites/tracybrower/2021/09/19/empathy-is-the-most-important-leadership-skill-according-to-research/?sh=62d76faf3dc5
+  - heading: The pandemic made it harder for remote workers to truly connect
+    urls:
+    - https://fortune.com/2021/12/23/remote-work-connect-virtual-empathy/
+  - heading: Empathy is the go-to leadership skill of the moment
+    urls:
+    - https://fortune.com/2021/11/10/empathy-leadership-skill-flexibility-employee-engagement/
+  - heading: Giving Negative Feedback Can Make Empathetic Leaders Less Effective
+    urls:
+    - https://hbr.org/2022/01/giving-negative-feedback-can-make-empathetic-leaders-less-effective
+  - heading: Connect with Empathy, But Lead with Compassion
+    urls:
+    - https://hbr.org/2021/12/connect-with-empathy-but-lead-with-compassion
+  - heading: Laughing/Crying Emoji isn't cool anymore
+    urls:
+    - https://www.cnn.com/2021/02/14/tech/crying-laughing-emoji-gen-z/index.html

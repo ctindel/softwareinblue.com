@@ -1,0 +1,12 @@
+schema_version: 1
+episode:
+  number: 32
+  tagline: Vector search is not enough
+  tagline_highlight: not enough
+  show_notes:
+  - heading: Elastic Search Relevant Engine Announcement
+    urls:
+    - https://www.sdxcentral.com/articles/news/new-elastic-search-tool-allows-enterprises-to-harness-generative-ai/2023/05/
+  - heading: Demo of ESRE
+    urls:
+    - https://www.youtube.com/watch?v=qJmJTz0Luj0

@@ -1,0 +1,18 @@
+schema_version: 1
+episode:
+  number: 3
+  tagline: Content is king
+  tagline_highlight: Content is king
+  show_notes:
+  - heading: Snowflake 10K
+    urls:
+    - https://d18rn0p25nwr6d.cloudfront.net/CIK-0001640147/13f710c7-3329-4ce0-8804-55e95f5f29f5.pdf
+  - heading: Venmo adds crypto support
+    urls:
+    - https://www.cnn.com/2021/04/20/investing/venmo-cryptocurrency/index.html
+  - heading: New China app for reporting on your friends and neighbors
+    urls:
+    - https://www.dailymail.co.uk/news/article-9487849/China-launches-app-citizens-report-mistaken-opinions.html
+  - heading: Netflix VP convicted for taking bribes
+    urls:
+    - https://www.theregister.com/2021/05/03/netflix_bribery_conviction/

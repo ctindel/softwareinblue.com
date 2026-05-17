@@ -1,0 +1,15 @@
+schema_version: 1
+episode:
+  number: 5
+  tagline: any way you turn you're buying more Salesforce
+  tagline_highlight: more Salesforce
+  show_notes:
+  - heading: SFDC 10K
+    urls:
+    - https://investor.salesforce.com/financials/sec-filings/sec-filings-details/default.aspx?FilingId=14807944
+  - heading: Snowflake goes fully remote
+    urls:
+    - https://www.cnbc.com/2021/05/26/snowflake-moves-executive-office-from-california-to-bozeman-montana.html
+  - heading: Employees want WFH
+    urls:
+    - https://www.bloomberg.com/news/articles/2021-06-01/return-to-office-employees-are-quitting-instead-of-giving-up-work-from-home

@@ -1,0 +1,10 @@
+# Auto-generated SIB metadata stub. Hand-fill the rest as needed (clips,
+# templates, links). The tagline + highlight here drive the design pipeline
+# (gen_sib_exports.py) — do NOT duplicate them in the Hugo episode<N>.md.
+
+schema_version: 1
+
+episode:
+  number: 0
+  tagline: "Who would ever buy open source tech?"
+  tagline_highlight: "open source"

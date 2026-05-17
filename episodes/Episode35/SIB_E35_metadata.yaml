@@ -1,0 +1,9 @@
+schema_version: 1
+episode:
+  number: 35
+  tagline: BI tools suck
+  tagline_highlight: BI tools suck
+  show_notes:
+  - heading: Dr. Tuli's character profile in "Secrets of the Universe"
+    urls:
+    - https://secretsoftheuniversefilm.com/character-profile-dr-santona-tuli/

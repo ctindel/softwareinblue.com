@@ -1,0 +1,153 @@
+schema_version: 1
+episode:
+  number: 40
+  tagline: Not putting your best foot forward is inexcusable
+  tagline_highlight: inexcusable
+  show_notes:
+  - heading: Kevin Hanson on LinkedIn
+    urls:
+    - https://www.linkedin.com/in/kevhanson
+  - heading: Vectroid
+    urls:
+    - https://vectroid.com/
+clips:
+- number: 1
+  timestamp_start: 00:09:08
+  timestamp_end: 00:15:41
+  quote_starts_with: So on the motivation piece
+  quote_ends_with: is a huge leg up
+  description: Kevin discusses his motivation for making the career change from Solution Architect to Account Executive
+  overlay_text: I had zero respect for sales
+  overlay_highlight: zero respect
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 2
+  timestamp_start: 00:15:51
+  timestamp_end: 00:18:16
+  quote_starts_with: Yeah one of my favorite meetings
+  quote_ends_with: that was a good wake up moment for me
+  description: Kevin tells a funny story about feeling great about one of his first meetings as a combined SA/Sales Rep and
+    then playing it back in his head and realizing how many mistakes he made, leading to his growth process for becoming a
+    better Sales Rep.
+  overlay_text: No next steps means no deal
+  overlay_highlight: no deal
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 3
+  timestamp_start: 00:19:03
+  timestamp_end: 00:23:54
+  quote_starts_with: Well so how did you learn those skills
+  quote_ends_with: These are the points that matter to our company
+  description: Kevin talks about how he learned to do the things that great sales reps do, like reading through MSA red lines
+    and pulling out things like business issues vs legal issues and using them as negotiation points to get a better deal
+    in the end.
+  overlay_text: Most sellers never read the contract
+  overlay_highlight: never read
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 4
+  timestamp_start: 00:24:15
+  timestamp_end: 00:29:52
+  quote_starts_with: What about with prospecting and with procurement
+  quote_ends_with: it's amazing
+  description: Kevin describes how he learned to create a territory plan, do prospecting and deal with procurement at his
+    customers and how he's using AI tools to help him now.
+  overlay_text: AI prospecting emails are just gross
+  overlay_highlight: AI prospecting emails
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 5
+  timestamp_start: 00:29:59
+  timestamp_end: 00:36:21
+  quote_starts_with: I had another question for you
+  quote_ends_with: there's a lot of things that can happen if you give the SE more time
+  description: Kevin talks about how being an SA previously informs the way he interacts with SAs now that he's a sales rep
+    and how he coaches sales reps to work better with SAs by giving them enough time to prepare properly for meetings.
+  overlay_text: Reps throw SEs under the bus constantly
+  overlay_highlight: under the bus
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 6
+  timestamp_start: 00:36:24
+  timestamp_end: 00:42:25
+  quote_starts_with: I have this question
+  quote_ends_with: It's all part of the process
+  description: Kevin talks about how he likes to engage and compensate engineering in the sales process now that he's an entrepreneur
+    and building his own business
+  overlay_text: Engineers don't need commission to care
+  overlay_highlight: don't need commission
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 7
+  timestamp_start: 00:51:43
+  timestamp_end: 00:55:03
+  quote_starts_with: So let's talk about your new company Vectroid
+  quote_ends_with: we're just trying to be careful with it
+  description: Kevin talks about his new company Vectroid, what problems they're trying to solve in the low latency vector
+    database space, why they're starting as a serverless cloud product, and whether or not they'll open source it eventually.
+  overlay_text: Once you open source, no going back
+  overlay_highlight: no going back
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 8
+  timestamp_start: 00:55:05
+  timestamp_end: 00:57:08
+  quote_starts_with: The biggest problem that I see
+  quote_ends_with: that's the only way it can run
+  description: Kevin talks about building a cloud service on top of other cloud services but abstracting things in a way that
+    they can convert it to an on-premise product eventually.
+  overlay_text: Stop telling customers what to do
+  overlay_highlight: Stop telling
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 9
+  timestamp_start: 00:57:08
+  timestamp_end: 00:58:22
+  quote_starts_with: How hard is it to get pricing right
+  quote_ends_with: and get some feedback
+  description: Kevin discusses how they are thinking about pricing their new offering and the fact that it's OK to change
+    pricing over time as long as you aren't messing up your existing customer base.
+  overlay_text: Pricing is the hardest startup decision
+  overlay_highlight: Pricing
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''
+- number: 10
+  timestamp_start: 01:04:50
+  timestamp_end: 01:05:51
+  quote_starts_with: What did you raise
+  quote_ends_with: I'll cut it if you can't say
+  description: Kevin talks about how Vectroid raised a $2.5M pre-seed round from ScaleX Ventures, Logo Venture, and Race Capital.
+  overlay_text: $2.5M and six people is enough
+  overlay_highlight: $2.5M
+  links:
+    youtube: ''
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_twitter: ''

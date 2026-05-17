@@ -1,0 +1,18 @@
+schema_version: 1
+episode:
+  number: 13
+  tagline: Plane is being built while we're flying
+  tagline_highlight: while we're flying
+  show_notes:
+  - heading: Bad Christmas Movie Bingo
+    urls:
+    - https://www.badchristmasmoviebingo.com
+  - heading: Bad Christmas Ornaments NFTs
+    urls:
+    - https://opensea.io/collection/bad-christmas-ornaments-nft
+  - heading: NFT Rug Pull Scam Arrests
+    urls:
+    - https://www.theverge.com/2022/3/24/22995107/us-arrest-charges-crypto-nft-rug-pull-frosties-ethan-nguyen-andre-llacuna
+  - heading: Cara Delevingne sells Vagina NFT
+    urls:
+    - https://www.out.com/celebs/2021/5/12/cara-delevingne-selling-nft-her-vagina-donating-profits

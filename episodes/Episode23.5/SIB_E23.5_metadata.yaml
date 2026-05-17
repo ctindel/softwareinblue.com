@@ -1,0 +1,14 @@
+# Auto-generated SIB metadata stub. The tagline + highlight here drive the
+# design pipeline (gen_sib_exports.py) — do NOT duplicate them in the Hugo
+# episode<N>.md.
+#
+# NOTE: This is the half-episode "Episode 23.5" — Chad & Steve AI riff
+# interlude (April 2023). gen_sib_exports.py accepts non-int episode IDs
+# (e.g. "23.5") via the EPISODE_ID/EPISODE_DISPLAY split.
+
+schema_version: 1
+
+episode:
+  number: "23.5"
+  tagline: "Personalized AI movies will further isolate us"
+  tagline_highlight: "isolate us"

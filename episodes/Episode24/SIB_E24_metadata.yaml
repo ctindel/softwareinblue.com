@@ -1,0 +1,12 @@
+schema_version: 1
+episode:
+  number: 24
+  tagline: Intentions don't scale
+  tagline_highlight: intentions don't scale
+  show_notes:
+  - heading: Links mentioned in the episode
+    urls:
+    - https://www.g2.com/
+    - https://twitter.com/drorpoleg/status/1620596928093523969/photo/1
+    - https://www.forumvc.com/
+    - https://lexfridman.com/john-carmack/

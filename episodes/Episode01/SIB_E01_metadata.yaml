@@ -1,0 +1,45 @@
+# SIB episode metadata — drives gen_sib_exports.py (covers, taglines)
+# AND the Spotify episode description (rendered to HTML and uploaded
+# via spotify_cloak.py). Never duplicate these fields in the Hugo
+# episode<N>.md frontmatter; that file is for Hugo theme fields only.
+
+schema_version: 1
+
+episode:
+  number: 1
+  tagline: "China and the West are in a cloud race"
+  tagline_highlight: "cloud race"
+
+  long_description: >-
+    Your hosts Steve Mayzak and Chad Tindel are joined by financial
+    news analyst Gary Deduke to breakdown the latest Zoom 10K filing
+    and recent earnings call. Then Chad and Steve discuss a range of
+    recent tech news topics like Clubhouse, Microsoft Mesh AR/VR
+    meetings, and Google Cloud capping Sales Commissions.
+
+  # "Show Notes and Links Mentioned" section — list of {heading, urls}.
+  # Heading is rendered as `<p>{heading}:</p>` and each URL becomes its
+  # own `<p><a …>{url}</a></p>` line.
+  show_notes:
+    - heading: "Zoom 10K and recent earnings"
+      urls:
+        - "https://investors.zoom.us/static-files/308bb471-ed70-43a5-b6ff-0397e4d780b6"
+        - "https://investors.zoom.us/news-releases/news-release-details/zoom-video-communications-reports-fourth-quarter-and-fiscal-0"
+    - heading: "Twitter thread about the future of Clubhouse"
+      urls:
+        - "https://twitter.com/ShaanVP/status/1371972261004070913?s=15"
+    - heading: "Microsoft Discord Rumors"
+      urls:
+        - "https://www.bloomberg.com/news/articles/2021-03-23/microsoft-said-to-be-in-talks-to-buy-discord-for-more-than-10b"
+    - heading: "Microsoft Mesh AR/VR"
+      urls:
+        - "https://www.geekwire.com/2021/microsoft-unveils-mesh-betting-mixed-reality-gatherings-collaboration-across-platforms/"
+    - heading: "Microsoft / HBR study on remote work and reducing social capital"
+      urls:
+        - "https://hbr.org/2021/03/what-a-year-of-wfh-has-done-to-our-relationships-at-work"
+    - heading: "Google sets deadline to be #1 or #2 in cloud by 2023 or they pull the plug"
+      urls:
+        - "https://www.theinformation.com/articles/google-brass-set-2023-as-deadline-to-beat-amazon-microsoft-in-cloud"
+    - heading: "Google Cloud caps sales commissions"
+      urls:
+        - "https://www.theinformation.com/articles/google-cloud-caps-sales-commissions-as-losses-mount"

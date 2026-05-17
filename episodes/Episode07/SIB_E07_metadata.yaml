@@ -1,0 +1,15 @@
+schema_version: 1
+episode:
+  number: 7
+  tagline: People don't value what they get for free
+  tagline_highlight: free
+  show_notes:
+  - heading: Peloton 10K
+    urls:
+    - https://investor.onepeloton.com/static-files/ad2d5468-491f-42d6-a81a-f63569b44ef7
+  - heading: Chase's Investment Advisory Firm
+    urls:
+    - https://www.plannedsolutions.com/
+  - heading: Listen to Chase's Podcast
+    urls:
+    - https://pod.link/1149167082

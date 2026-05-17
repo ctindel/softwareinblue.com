@@ -1,0 +1,30 @@
+schema_version: 1
+episode:
+  number: 41
+  tagline: Google never finishes the job
+  tagline_highlight: Google never finishes
+  show_notes:
+  - heading: Local Edition Jazz Orchestra
+    urls:
+    - https://localeditionjazz.com
+  - heading: Jazz Mass Trailer
+    urls:
+    - https://www.youtube.com/watch?v=Ps6z9wIX4xA
+  - heading: Jazz Mass Apple music
+    urls:
+    - https://music.apple.com/us/album/missa-iubileum-aureum-golden-jubilee-jazz-m
+  - heading: Jazz Mass Spotify
+    urls:
+    - https://open.spotify.com/album/7v0wudEKamUVFSo7rFdtC3?si=dOVHQopBTAC9w-CXhVTwGQ
+  - heading: Illumy Instant Messaging
+    urls:
+    - https://www.illumy.com
+  - heading: Pacific Mambo Orchestra iii side Youtube
+    urls:
+    - https://www.youtube.com/playlist?list=PLkjMxKti4MZjkRyngO
+  - heading: Pacific Mambo Orchestra iii side Spotify
+    urls:
+    - https://open.spotify.com/album/1Hc67CbNiXKUAxVzHiWrwT?si=
+  - heading: D. K. Harrell Talkin Heavy Spotify
+    urls:
+    - https://open.spotify.com/album/3B613bVZ4d0OVnJwRykrIo?si=77vGfvnkThy0d44ifK32Gg

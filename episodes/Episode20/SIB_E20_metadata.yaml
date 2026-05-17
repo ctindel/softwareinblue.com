@@ -1,0 +1,33 @@
+schema_version: 1
+episode:
+  number: 20
+  tagline: I hate the term NFT
+  tagline_highlight: hate
+  show_notes:
+  - heading: Richard Bernstein
+    urls:
+    - https://richardbernsteinart.com/
+  - heading: Bernstein Instagram
+    urls:
+    - https://www.instagram.com/richardbernsteinart/
+  - heading: Double Warhol NFT
+    urls:
+    - https://superrare.com/artwork-v2/double-warhol-3d-34928
+  - heading: Mick and Madonna NFT
+    urls:
+    - https://superrare.com/artwork-v2/megastars--mick-and-madonna-32601
+  - heading: Painting with Light Documentary
+    urls:
+    - https://www.youtube.com/watch?v=b-JpI4egl2o
+  - heading: Starmaker Book
+    urls:
+    - https://www.amazon.com/Richard-Bernstein-Starmaker-Warhols-Artist/dp/0847863387
+  - heading: Bobby Zeik Website
+    urls:
+    - https://bobby-zeik.pixels.com/
+  - heading: Bobby Zeik Youtube
+    urls:
+    - https://www.youtube.com/channel/UCexwdDfvJiOESquDoGDesuw
+  - heading: Matthew Robertson Instagram
+    urls:
+    - https://www.instagram.com/matter_art/

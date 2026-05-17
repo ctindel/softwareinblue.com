@@ -1,0 +1,128 @@
+schema_version: 1
+episode:
+  number: 44
+  posting_date: '2026-02-18'
+  duration: '1:03:09'
+  hugo_title: Episode 44 | Ian Spandow | Founder at Spandow House Dog Rescue
+  tagline: The demo is about the customer, not the product
+  tagline_highlight: customer
+  guest:
+    slug: ianspandow
+    full_name: Ian Spandow
+    full_title: Founder at Spandow House Dog Rescue · former sales trainer at Oracle
+      and MongoDB
+    short_title: Founder at Spandow House Dog Rescue
+    company: Spandow House Dog Rescue
+    headshot_original: hugosite/static/img/guest/ianspandow.jpg
+    headshot_bg_removed: hugosite/static/img/episode/Episode44/headshots/ianspandow-nobg.png
+    twitter_handle: ''
+    twitter_title: Founder at Spandow House Dog Rescue
+  hosts:
+  - Chad Tindel
+  - Steve Mayzak
+  images:
+    balloon_no_overlay: hugosite/static/img/episode/Episode44/illustrations/SIB_E44_Balloon_no_overlay.png
+    balloon_with_overlay: hugosite/static/img/episode/Episode44/illustrations/SIB_E44_Balloon_with_overlay.png
+    podcast_cover_canonical: hugosite/static/img/episode/Episode44/w1/podcast-cover-3000x3000.png
+  links:
+    youtube_full: https://youtu.be/PWuYFU9Hf6Y
+    spotify: https://open.spotify.com/episode/1nBi1O7PYFPvPKSYKsQfDp?si=Qs3QVko8Q0C-2Y5a4TeLyQ
+    apple_podcasts: https://podcasts.apple.com/us/podcast/episode-44-ian-spandow-founder-at-spandow-house-dog-rescue/id1561899125?i=1000750340880
+    posted_tiktok: ''
+    posted_linkedin: ''
+    posted_youtube_text: ''
+  long_description: 'Ian Spandow is friends with Bono and U2, a standup comic, a musician,
+    an author, and a dog rescuer. Does it take all of that to be a successful sales
+    trainer?
+
+
+    Ian Spandow has built his career as a sales trainer and sales coach at some of
+    the biggest technology companies in the world like Oracle and MongoDB. His ability
+    to engage the trainees is not merely natural rapport — he goes into detail into
+    a bunch of different techniques that he uses to keep people focused and enjoying
+    the learning process.
+
+
+    Ian also runs a Dog Sanctuary in Grass Valley for dogs that aren''t suitable for
+    the typical shelter environment. His new book "Rescuing Dogs and Salespeople:
+    Memoir of a Mutt" is available on Amazon and proceeds from the book help fund
+    the Dog Sanctuary.
+
+
+    Please donate to Ian''s Dog Rescue shelter online at https://spandowhouse.com/
+
+    '
+  links_mentioned:
+  - 'Ian''s book "Rescuing Dogs and Salespeople: Memoir of a Mutt": https://www.amazon.com/Rescuing-Dogs-Salespeople-Memoir-Mutt/dp/B0F6M2T324'
+  - 'Ian''s Dog Rescue: https://spandowhouse.com/'
+  twitter_topic: what dog rescue and sales coaching have in common, and why your demo
+    should be about the customer not your product
+  show_notes:
+  - heading: 'Ian''s Book ""Rescuing Dogs and Salespeople: Memoir of a Mutt""'
+    urls:
+    - https://www.amazon.com/Rescuing-Dogs-Salespeople-Memoir-Mutt/dp/B0F6M2T324
+  - heading: Ian's Dog Rescue
+    urls:
+    - https://spandowhouse.com/
+clips: []
+templates:
+  footer: 'Subscribe to us on your favorite social media platforms to get notified
+    about new episodes!
+
+
+    Our website: https://softwareinblue.com
+
+
+    Twitter: https://twitter.com/softwareinblue
+
+
+    LinkedIn: https://linkedin.com/company/softwareinblue
+
+
+    Youtube:  https://youtube.com/channel/UC8qfPUKO_rPmtvuB4nV87rg
+
+
+    TikTok: https://www.tiktok.com/@softwareinblue
+
+
+    Apple Podcasts: https://podcasts.apple.com/us/podcast/can-i-get-that-software-in-blue/id1561899125
+
+
+    Spotify: https://open.spotify.com/show/25r9ckggqIv6rGU8ca0WP2
+
+    '
+  clip_long: 'In this short clip, {guest_name}, {guest_title}, joins Chad Tindel and
+    Steve Mayzak to discuss {clip_description}.
+
+
+    View the full episode here:
+
+
+    {episode_youtube_full}
+
+
+    {footer}
+
+    '
+  clip_twitter: In this short clip {guest_twitter_or_name}, {twitter_title}, tells
+    @ctindel and @smayzak {clip_description}.
+  episode_long: '{long_description}
+
+
+    Episode #{episode_number} of "Can I get that software in blue?", a podcast by
+    and for people engaged in technology sales. If you are in the technology presales,
+    solution architecture, sales, support or professional services career paths then
+    this show is for you!
+
+
+    {footer}
+
+
+    Links mentioned in the episode:
+
+
+    {links_mentioned_block}
+
+    '
+  episode_twitter: In ep. {episode_number}, {guest_twitter_or_name}, {twitter_title},
+    joins @ctindel and @smayzak to discuss {twitter_topic}.

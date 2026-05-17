@@ -1,0 +1,16 @@
+schema_version: 1
+episode:
+  number: 6
+  tagline: Japan never wants to standardize
+  tagline_highlight: never wants to standardize
+  show_notes:
+  - heading: Adrian's former company beBit, makers of the Augmented Reality (AR) sport
+      Hado
+    urls:
+    - https://hado-official.com/en/
+  - heading: Nice writeup about Hado
+    urls:
+    - https://blog.laval-virtual.com/en/hado-the-sport-in-augmented-reality-from-japan/
+  - heading: Japanese IPO Market
+    urls:
+    - https://medium.com/innovators-in-japan/on-the-current-ipo-landscape-in-japan-mergers-and-acquisitions-corporations-startups-c1676714f99

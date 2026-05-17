@@ -1,0 +1,13 @@
+schema_version: 1
+episode:
+  number: 25
+  tagline: Earnings calls are management directed theater
+  tagline_highlight: directed theater
+  show_notes:
+  - heading: Jason's Publications
+    urls:
+    - https://www.amazon.com/stores/Jason-Apollo-Voss/author/B003T0W11Y
+    - https://deceptionandtruthanalysis.com/insights/f/the-neuroscience-of-deception
+    - https://deceptionandtruthanalysis.com/insights/f/reality-monitoring-a-technique-you-should-know
+    - https://deceptionandtruthanalysis.com/insights/f/case-study-silicon-valley-bank
+    - https://www.nytimes.com/2023/03/19/business/economy/fed-silicon-valley-bank.html

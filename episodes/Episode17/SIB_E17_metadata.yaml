@@ -1,0 +1,12 @@
+schema_version: 1
+episode:
+  number: 17
+  tagline: Being known beats being good
+  tagline_highlight: being known
+  show_notes:
+  - heading: AI and the Future of Work
+    urls:
+    - https://www.youtube.com/watch?v=nRk-F8xCeWM
+  - heading: Latinas from the block to the boardroom podcast with Noelle
+    urls:
+    - https://pod.link/1468973539/episode/645bc0a76581937ec19485a31a4e563e

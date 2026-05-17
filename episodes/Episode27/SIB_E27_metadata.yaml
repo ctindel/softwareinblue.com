@@ -1,0 +1,18 @@
+schema_version: 1
+episode:
+  number: 27
+  tagline: Writing code is easy
+  tagline_highlight: writing code
+  show_notes:
+  - heading: Will LaForest on LinkedIn
+    urls:
+    - https://www.linkedin.com/in/willlaforest
+  - heading: Will LaForest on Twitter
+    urls:
+    - https://twitter.com/WLaForest
+  - heading: Confluent
+    urls:
+    - https://www.confluent.io/
+  - heading: Apache Kafka
+    urls:
+    - https://kafka.apache.org/

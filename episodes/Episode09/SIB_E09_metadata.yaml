@@ -1,0 +1,21 @@
+schema_version: 1
+episode:
+  number: 9
+  tagline: AI will be in every device
+  tagline_highlight: every device
+  show_notes:
+  - heading: Rephonic graph
+    urls:
+    - https://rephonic.com/graph/can-i-get-that-software-in-blue
+  - heading: Neural Magic Series A
+    urls:
+    - https://neuralmagic.com/blog/neural-magic-series-a/
+  - heading: NYC AI bias audits
+    urls:
+    - https://www.protocol.com/bulletins/nyc-ai-hiring-tools
+  - heading: Ray-Ban Stories Glasses
+    urls:
+    - https://www.ray-ban.com/usa/discover-ray-ban-stories/clp
+  - heading: Ireland Tax Deal
+    urls:
+    - https://www.cnbc.com/2021/10/08/oecd-reaches-deal-on-corporate-tax-after-ireland-agrees.html
